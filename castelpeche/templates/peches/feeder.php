@@ -1,19 +1,15 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/./php/header.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php') ?>
 
 <div>
     <div class="typep">
         <h1>La pêche au Feeder</h1>
-        <div class="footlogo">
-            <a class="fblink" href="https://www.facebook.com/groups/458043920991838" target="_blank" title="lien facebook">Rejoignez nous sur la page Facebook Castel Pêche au Feeder !</a>
-            <a href="https://www.facebook.com/castel.peche" target="_blank" title="lien facebook">
-                <img id="logofb" src="../src/img/logofacebook.png" alt="logo facebook"></a>
-        </div>
+        <?php include($_SERVER['DOCUMENT_ROOT'] . '/templates/rejoignez_nous.php'); ?>
         <p class="descp">La pêche au feeder est une technique de pêche polyvalente et efficace. Elle consiste à utiliser un feeder,
             un dispositif contenant de l'amorce, pour attirer les poissons vers votre zone de pêche.</p>
     </div>
     <div class="carna">
         <article class="carnafull">
-            <img src="./../src/img/moulinet1.webp" alt="">
+            <img src="../../img/moulinet1.webp" alt="">
             <div class="h3p">
                 <h3>Nos Moulinets</h3>
                 <p>Nos moulinets pour la pêche au carnassier sont conçus pour répondre aux besoins des pêcheurs à la recherche de performances et de fiabilité.
@@ -21,7 +17,7 @@
             </div>
         </article>
         <article class="carnafull">
-            <img src="./../src/img/pêche6.webp" alt="">
+            <img src="../../img/pêche6.webp" alt="">
             <div class="h3p">
                 <h3>Nos Leurres & Cuilléres</h3>
                 <p>Nos leurres et cuilléres sont conçus avec une attention minutieuse aux détails pour imiter parfaitement les proies préférées des carnassiers.
@@ -31,7 +27,7 @@
             </div>
         </article>
         <article class="carnafull">
-            <img src="./../src/img/canne.webp" alt="">
+            <img src="../../img/canne.webp" alt="">
             <div class="h3p">
                 <h3>Nos Cannes & Enssembles</h3>
                 <p>Découvrez notre sélection exceptionnelle de cannes et d'ensembles spécialement conçus pour la pêche au carnassier.
@@ -40,7 +36,7 @@
             </div>
         </article>
         <article class="carnafull">
-            <img src="./../src/img/materielcarna.webp" alt="">
+            <img src="../../img/materielcarna.webp" alt="">
             <div class="h3p">
                 <h3>Petit Matériel</h3>
                 <p>Notre magasin propose un large choix de petit matériel pour la pêche au carnassier.
@@ -51,4 +47,4 @@
     </div>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/./php/footer.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php') ?>

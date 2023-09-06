@@ -20,7 +20,7 @@
         <div class="footlogo">
             <a class="fblink" href="https://www.facebook.com/castel.peche" target="_blank" title="lien facebook">Rejoignez nous sur Facebook !</a>
             <a href="https://www.facebook.com/castel.peche" target="_blank" title="lien facebook">
-                <img id="logofb" src="../src/img/logofacebook.png" alt="logo facebook"></a>
+                <img id="logofb" src="/img/logofacebook.png" alt="logo facebook"></a>
         </div>
 
         <div class="map">

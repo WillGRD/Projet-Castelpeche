@@ -1,5 +1,5 @@
 <?php
-require_once('dbconnect.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/models/dbconnect.php');
 
 $name = $_POST["titre"];
 $photo = $_POST["photo"];
@@ -11,10 +11,5 @@ $requeteAjout->bindParam('image', $photo);
 $requeteAjout->bindParam('description', $desc);
 
 $requeteAjout->execute();
-echo 'Article bien ajouté';
 
-header('Location: ../actualite.php');
-
-
-
-
+header('Location: ../templates/actualite.php');

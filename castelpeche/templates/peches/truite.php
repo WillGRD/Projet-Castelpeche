@@ -1,4 +1,4 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/./php/header.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php') ?>
 
 <div class="typep">
     <h1>La pêche à la Truite</h1>
@@ -8,7 +8,7 @@
 </div>
 <div class="carna">
     <article class="carnafull">
-        <img src="./../src/img/moulinet1.webp" alt="">
+        <img src="../../img/moulinet1.webp" alt="">
         <div class="h3p">
             <h3>Nos Moulinets</h3>
             <p>Nos moulinets pour la pêche à la truite sont conçus pour offrir une excellente performance et durabilité.
@@ -18,7 +18,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="./../src/img/pêche6.webp" alt="">
+        <img src="../../img/pêche6.webp" alt="">
         <div class="h3p">
             <h3>Nos Leurres et Appâts</h3>
             <p>Nos appâts naturels comprennent une variété d'options telles que les vers de terre, les asticots,
@@ -29,7 +29,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="./../src/img/canne.webp" alt="">
+        <img src="../../img/canne.webp" alt="">
         <div class="h3p">
             <h3>Nos Cannes & Enssembles</h3>
             <p>Dans notre magasin, vous trouverez une vaste sélection de cannes et d'ensembles de pêche adaptés à tous les niveaux et toutes les techniques.
@@ -41,7 +41,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="./../src/img/materielcarna.webp" alt="">
+        <img src="../../img/materielcarna.webp" alt="">
         <div class="h3p">
             <h3>Petit matériel</h3>
             <p>Dans notre magasin, vous trouverez tout le petit matériel essentiel pour la pêche à la truite.
@@ -51,4 +51,4 @@
     </article>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/./php/footer.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php') ?>
