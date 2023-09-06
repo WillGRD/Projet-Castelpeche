@@ -18,7 +18,7 @@
 <body>
     <header>
         <nav id='menu'>
-            <img class="logo" src="/test.jpg" alt="Logo castel pêche">
+            <img class="logo" src="/img/Logocastel.jpg" alt="Logo castel pêche">
             <div>
                 <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
                 <ul>
@@ -34,7 +34,7 @@
                             <li><a href="/templates/peches/grosmat.php">Electronique & Gros matériel</a></li>
                         </ul>
                     </li>
-                    <li><a href="actualite.php">Actualités</a></li>
+                    <li><a href="/templates/actualite.php">Actualités</a></li>
                     <?php if (!empty($_SESSION['user'])) {
                     ?> <li><a href="/models/deconnexion.php">Deconnexion</a></li>
                     <?php } else {
