@@ -1,0 +1,710 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/*Debut carousel*/
+
+#carou h2{
+	text-align: center;                    /* Centre le titre au milieu de la page*/
+	margin-bottom: .625rem;                /* Applique une marge entre le titre et le carrousel*/
+}
+
+#carou {
+	margin: 1.25rem 22rem;                /* Marge inférieure de 3.125rem pour l'élément avec l'ID "carou" */
+	width: inherit;                       /* Largeur de 100% pour l'élément avec l'ID "slider" */
+	height: inherit;                      /* Hauteur de 100% pour l'élément avec l'ID "slider" */	
+}
+
+#slider {
+	position: relative;               /* Position relative pour l'élément avec l'ID "slider" */
+	width: 100%;					  /* Largeur de 100% pour l'élément avec l'ID "slider" */
+	height: 100%;                     /* Hauteur de 100% pour l'élément avec l'ID "slider" */
+	margin: auto;                     /* Marge automatique pour centrer l'élément horizontalement */
+	display: flex;                    /* Utilisation d'un modèle de boîte flexible */
+	align-items: center;              /* Alignement vertical des éléments enfants au centre */
+}
+
+#precedent,
+#suivant {
+	cursor: pointer;                            /* Curseur en forme de pointeur pour les éléments avec les ID "precedent" et "suivant" */
+	transition: opacity 0.3s ease;              /* Transition d'opacité avec une durée de 0.3s et une courbe de transition "ease" */
+	opacity: 0;                                 /* Opacité initiale de 0 pour les éléments avec les ID "precedent" et "suivant" */
+	position: absolute;                         /* Position absolue pour les éléments avec les ID "precedent" et "suivant" */
+	font-size: 100px;                           /* Taille de police de 100px pour les éléments avec les ID "precedent" et "suivant" */
+	color: rgba(220, 220, 220, 0.8);          /* Couleur de texte RGBA (220, 220, 220, 0.8) pour les éléments avec les ID "precedent" et "suivant" */
+	background-color: rgba(0, 0, 0, 0.8);     /* Couleur de fond RGBA (0, 0, 0, 0.8) pour les éléments avec les ID "precedent" et "suivant" */
+	padding: 10px;                              /* Remplissage de 10px pour les éléments avec les ID "precedent" et "suivant" */
+}
+
+#precedent {
+	left: 0;             /* Positionnement à gauche pour l'élément avec l'ID "precedent" */
+}
+
+#suivant {
+	right: 0;           /* Positionnement à droite pour l'élément avec l'ID "suivant" */
+}
+
+#slider:hover #precedent,
+#slider:hover #suivant {
+	opacity: 1;              /* Opacité de 1 pour les éléments avec les ID "precedent" et "suivant" lors du survol de l'élément avec l'ID "slider" */
+}
+
+.imgslider{
+	width: inherit;           /* Largeur de 1500px pour les éléments avec la classe "imgslider" */
+	height: 25rem;            /* Hauteur de 500px pour les éléments avec la classe "imgslider" */
+	display: none;  
+	animation:fade 0.8s;
+	object-fit: cover;
+}
+
+@keyframes fade{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+#showing{
+	display: block;
+}
+
+/*Fin carousel*/
+
+/* Début Barre De Navigation*/
+
+ul li a {
+	padding: 40px 50px; /* Augmente la taille de la zone cliquable des liens de la nav */
+}
+
+.logofb:hover {
+	background-color: rgba(249, 244, 255, 0.774);   /* Changement de couleur de fond au survol */
+}
+
+#menu {
+	background: #CFDB25;                   /* Arrière-plan de couleur #CFDB25 */
+	background: linear-gradient(to bottom, #20751D, #D7E609); /* Dégradé linéaire de haut en bas utilisant les couleurs #20751D et #D7E609 */
+	color: #FFF;                           /* Texte en couleur blanche */
+	height: 6.25rem;                         /* Hauteur de 6.25rem */
+	padding-left: 18px;                      /* Espacement à gauche de 18px */
+	display: flex;                           /* Affichage en tant que conteneur flexible */
+	align-items: center;                     /* Alignement vertical du contenu au centre */
+	justify-content: space-between;          /* Répartition égale de l'espace disponible entre les éléments enfants */
+	margin: auto;                            /* Marge automatiquement ajustée en fonction de l'espace disponible horizontalement */
+}
+
+
+
+#menu li {
+	margin: 0 auto;                          /* Marge de 0 de chaque côté et centrée horizontalement */
+	padding: 0;                              /* Pas de rembourrage intérieur */
+	list-style: none;                        /* Pas de style de liste */
+}
+
+#menu ul {
+	width: 100%;                             /* Largeur de 100% */
+	margin-right: 2.75rem;                   /* Marge de droite de 3.75rem */
+}
+
+#menu li {
+	float: left;                             /* Élément flottant à gauche */
+	display: inline;                         /* Affichage en ligne */
+	position: relative;                      /* Position relative */
+}
+
+#menu a {
+	display: block;                          /* Affichage en tant que bloc */
+	text-decoration: none;                   /* Pas de soulignement du texte */
+	color: #FFFFFF;                        /* Couleur du texte en blanc (#FFFFFF) */
+	font-size: 1.25rem;                      /* Taille de police de 1.25rem */
+	                   /* Espacement à gauche de 6.25rem */
+	padding-right: 2rem;                 /* Espacement à droite de 6.25rem */
+}
+	
+#menu a.dropdown-arrow:after {
+	content: "\25BE";                        /* Affiche le symbole de la flèche vers le bas (\25BE) après le contenu de l'élément */
+	margin-left: .3125rem;                   /* Marge à gauche de 0.3125rem */
+}
+
+#menu li a:hover {
+	color: #0099CC;                       /* Couleur du texte en #0099CC au survol */
+	background: #F2F2F2;                  /* Couleur d'arrière-plan en #F2F2F2 au survol */
+}
+
+#menu input {
+	display: none;                          /* Pas d'affichage */
+	margin: 0;                              /* Pas de marge */
+	padding: 0;                             /* Pas de rembourrage */
+	height: 63px;                           /* Hauteur de 63px */
+	width: 100%;                            /* Largeur de 100% */
+	opacity: 0;                             /* Opacité de 0 (invisible) */
+	cursor: pointer;                        /* Curseur de type pointeur */
+}
+
+#menu label {
+	display: none;                          /* Pas d'affichage */
+	line-height: 63px;                      /* Hauteur de ligne de 63px */
+	text-align: end;                     /* Alignement du texte au centre */
+	position: absolute;                     /* Position absolue */
+	left: 35px;                             /* Positionnement à gauche de 35px */
+}
+
+#menu label:before {
+	font-size: 70px;                       /* Taille de police de 1.6em */
+	content: "\2261";                       /* Affiche le symbole du menu hamburger (\2261) avant le contenu de l'élément */
+	margin-left: .3125rem;                   /* Marge à gauche de 1.25rem */
+}
+
+#menu ul.sub-menus {
+	height: auto;                           /* Hauteur automatique */
+	overflow: hidden;                       /* Masque le contenu débordant de la boîte */
+	width: 100%;                            /* Largeur de 100% */
+	background: #A7AB3F;                  /* Couleur d'arrière-plan en #A7AB3F */
+	position: absolute;                     /* Position absolue */
+	z-index: 99;                            /* Indice de positionnement z élevé */
+	display: none;                          /* Pas d'affichage */
+}
+
+#menu ul.sub-menus li {
+	display: block;                         /* Affiche les éléments de liste en tant que bloc */
+	width: 100%;                            /* Largeur de 100% */
+}
+
+#menu ul.sub-menus a {
+	color: #FFFFFF;                       /* Couleur du texte en blanc (#FFFFFF) */
+	font-size: 1.25rem;                     /* Taille de police de 1.25rem */
+	padding: .5rem .875rem;                 /* Rembourrage de .5rem en haut/bas et .875rem à gauche/droite */
+}
+
+#menu li:hover ul.sub-menus {
+	display: block;                         /* Affiche les sous-menus lorsque le parent est survolé */
+}
+
+#menu ul.sub-menus a:hover {
+	background: #F2F2F2;                  /* Couleur d'arrière-plan en #F2F2F2 au survol */
+	color: #444444;                       /* Couleur du texte en #444444 au survol */
+}
+
+/* Fin Barre De Navigation*/
+
+/*Début Home Page*/
+
+a:hover {
+	text-decoration: underline;            /* Souligne le texte lorsqu'il est survolé */
+}
+
+article a {
+	text-decoration: none;                 /* Supprime la décoration du texte pour les liens à l'intérieur d'articles */
+}
+
+a:visited {
+    color: rgb(0, 0, 0);                 /* Définit la couleur du texte pour les liens visités en noir */
+}
+
+body {
+	background-color: rgb(238, 236, 236); /* Définit la couleur d'arrière-plan du corps en RGB(238, 236, 236) */
+}
+
+.texthome {
+	margin: 0.625rem 6.25rem;               /* Marge de 0.625rem en haut/bas et 6.25rem à gauche/droite */
+	text-align: justify;                    /* Aligne le texte de manière justifiée */
+	font-family: 'montserrat';              /* Utilise la police de caractères 'montserrat' */
+	                     /* Taille de police de 1.75rem */
+	display: flex;                          /* Affiche les éléments en tant que conteneur flexible */
+	flex-direction: column;                 /* Organise les éléments en colonne */
+}
+
+.imgindex2 {
+	border-radius: 3.125rem;                   /* Ajoute un bord arrondi avec un rayon de 50px */
+	margin-top: 1.5625rem;                 /* Marge en haut de 1.5625rem */
+	width: 56.25rem;                       /* Largeur de 56.25rem */
+	height: 37.5rem;                       /* Hauteur de 37.5rem */
+}
+
+.imgindex3 {
+	border-radius: 3.125rem;                   /* Ajoute un bord arrondi avec un rayon de 50px */
+	margin-top: 1.5625rem;                 /* Marge en haut de 1.5625rem */
+	width: 56.25rem;                       /* Largeur de 56.25rem */
+	height: 37.5rem;                       /* Hauteur de 37.5rem */
+}
+
+.imgindex1 {
+	border-radius: 3.125rem;                   /* Ajoute un bord arrondi avec un rayon de 50px */
+	margin-top: 1.5625rem;                 /* Marge en haut de 1.5625rem */
+	width: 56.25rem;                       /* Largeur de 56.25rem */
+	height: 37.5rem;                       /* Hauteur de 37.5rem */
+}
+
+.imghome article {
+	display: flex;                        /* Affiche les articles en tant que conteneurs flexibles */
+	margin: 0 2.5rem;                     /* Marge de 0 en haut/bas et 2.5rem à gauche/droite */
+}
+
+.imghome article:nth-of-type(2n-1) {
+	flex-direction: row-reverse;         /* Inverse la direction des éléments fils dans les articles de rang impair */
+	margin-bottom: 2.5rem;               /* Marge en bas de 2.5rem */
+	margin-right: 3.125rem;              /* Marge à droite de 3.125rem */
+	margin-top: 3.125rem;                /* Marge en haut de 3.125rem */
+}
+
+.imghome img {
+	width: 31.25rem;
+	height: 18.75rem;
+}
+
+.carnafull img {
+	width: 31.25rem;
+	height: 18.75rem;
+}
+
+.imghome article:nth-of-type(2n) {
+	margin-left: 3.125rem;             /* Marge à gauche de 3.125rem pour les articles de rang pair */
+}
+
+article p {
+	font-family: 'montserrat';        /* Utilise la police de caractères 'montserrat' */
+	font-size: large;                 /* Taille de police large */
+	display: block;                   /* Affiche les paragraphes en tant que blocs */
+	color: rgb(2, 65, 2);           /* Couleur du texte en RVB(2, 65, 2) */
+	                  /* Rembourrage de 0 en haut/bas et 60px à gauche/droite */
+	margin-block-start: 1em;          /* Marge de départ du bloc de 1em */
+	margin-block-end: 1em;            /* Marge de fin du bloc de 1em */
+	margin-inline-start: 0px;         /* Marge intérieure de début de 0px */
+	margin-inline-end: 0px;           /* Marge intérieure de fin de 0px */
+}
+
+article {
+	display: flex;                   /* Affiche les articles en tant que conteneurs flexibles */
+	align-items: center;             /* Alignement vertical des éléments fils au centre */
+}
+
+article h3 {
+	font-family: cursive;           /* Utilise la police de caractères cursives */
+	font-size: 28px;                /* Taille de police de 28px */
+	color: #000000;               /* Couleur du texte en noir */
+	text-transform: uppercase;      /* Transforme le texte en majuscules */
+	text-align: center;             /* Alignement du texte au centre */
+}
+a:visited{
+	color: #000000;
+}
+.desc {
+	border: .125rem solid;          /* Bordure solide de .125rem */ 
+	display: flex;                  /* Affiche les éléments en tant que conteneur flexible */
+	flex-direction: column;         /* Organise les éléments en colonne */
+	margin:200px;                   /* Marge de 1.25rem en haut/bas et 18.75rem à gauche/droite */
+	align-items: center;            /* Alignement horizontal des éléments au centre */
+	box-shadow: 20px 20px 60px rgb(25, 118, 2);       /* Ombre portée avec un décalage de 20px à droite et en bas, un flou de 60px et une couleur RGB(25, 118, 2) */
+	margin-bottom: 5rem;            /* Marge en bas de 5rem */
+	box-sizing: border-box;
+  	border: 1px solid black;
+  	padding: 10px;
+}
+
+.indexdesc {
+	border: .125rem solid;          /* Bordure solide de .125rem */
+	display: flex;                  /* Affiche les éléments en tant que conteneur flexible */
+	flex-direction: column;         /* Organise les éléments en colonne */
+	margin: 1.25rem 18.75rem;       /* Marge de 1.25rem en haut/bas et 18.75rem à gauche/droite */
+	align-items: center;            /* Alignement horizontal des éléments au centre */
+	box-shadow: 20px 20px 60px rgb(25, 118, 2);      /* Ombre portée avec un décalage de 20px à droite et en bas, un flou de 60px et une couleur RGB(25, 118, 2) */
+	margin-bottom: 5rem;            /* Marge en bas de 5rem */
+}
+
+.imgdesc {
+	width: 400px;                  /* Largeur de 400px */
+	height: 400px;                 /* Hauteur de 400px */
+	border-radius: 50px;           /* Ajoute un bord arrondi avec un rayon de 50px */
+	margin-top: 1.5625rem;         /* Marge en haut de 1.5625rem */
+}
+
+.texthome {
+	margin: .625rem 6.25rem;       /* Marge de .625rem en haut/bas et 6.25rem à gauche/droite */
+	text-align: justify;           /* Aligne le texte de manière justifiée */
+	font-family: 'montserrat';     /* Utilise la police de caractères 'montserrat' */
+	                            /* Taille de police de 2.0625rem */
+}
+
+.texthome p {
+	margin-bottom: 1rem;           /* Marge en bas de 1rem pour les paragraphes à l'intérieur de .texthome */
+}
+
+#h1 {
+	font-family: 'roboto';         /* Utilise la police de caractères 'roboto' */
+	font-size: 3.125rem;            /* Taille de police de 3.75rem */
+	margin-top: 1.5625rem;         /* Marge en haut de 1.5625rem */
+	padding: 1.875rem;             /* Rembourrage de 1.875rem */
+	text-align: center;
+}
+
+#h2 {
+	font-family: 'roboto';         /* Utilise la police de caractères 'roboto' */
+	padding: 3.125rem;             /* Rembourrage de 3.125rem */
+	font-size: 2.5rem;             /* Taille de police de 2.5rem */
+	text-align: center;
+}
+
+/*Fin Home Page*/
+
+/* Les types de pêche DEBUT  */
+
+a:visited {
+	color: rgb(0, 0, 0);        /* Couleur du lien visité en noir */
+}
+
+.fblink {
+	font-size: 1.25rem;            /* Taille de police de 2rem */
+	text-decoration: none;        /* Pas de décoration de texte */
+	padding-bottom: .3125rem;     /* Rembourrage en bas de .3125rem */
+}
+
+.typep p {
+	          
+	font-family: 'montserrat';    /* Utilise la police de caractères 'montserrat' */
+	padding-top: 2.5rem;          /* Rembourrage en haut de 2.5rem */
+	padding-bottom: 3.125rem;     /* Rembourrage en bas de 3.125rem */
+	padding: 3.125rem;            /* Rembourrage de 3.125rem sur tous les côtés */
+	margin-left: 15.625rem;       /* Marge à gauche de 15.625rem */
+	margin-right: 15.625rem;      /* Marge à droite de 15.625rem */
+	text-align: justify;          /* Alignement du texte justifié */
+}
+
+.typep h1 {
+	font-family: 'roboto';       /* Utilise la police de caractères 'roboto' */
+	font-size: 3.75rem;          /* Taille de police de 3.75rem */
+	margin-top: 1.5625rem;       /* Marge en haut de 1.5625rem */
+	padding: 1.875rem;           /* Rembourrage de 1.875rem sur tous les côtés */
+	text-align: center;          /* Alignement du texte au centre */
+}
+
+.carna article {
+	padding-bottom: 3.125rem;    /* Rembourrage en bas de 3.125rem */
+}
+
+.carna article:nth-of-type(2n-1) {
+	flex-direction: row-reverse;    /* Inverse la direction des éléments fils dans les articles de rang impair */
+	margin-bottom: 2.5rem;          /* Marge en bas de 2.5rem */
+	margin-right: 5rem;             /* Marge à droite de 5rem */
+	margin-top: 3.125rem;           /* Marge en haut de 3.125rem */
+	padding: 1.25rem;               /* Rembourrage de 1.25rem sur tous les côtés */
+	padding-right: 70px;            /* Rembourrage à droite de 70px */
+	margin-bottom: 100px;           /* Marge en bas de 100px */
+}
+
+.carna article:nth-of-type(2n) {
+	margin-left: 5rem;              /* Marge à gauche de 5rem */
+	margin-bottom: 2.5rem;          /* Marge en bas de 2.5rem */
+	padding: 1.25rem;               /* Rembourrage de 1.25rem sur tous les côtés */
+	padding-left: 70px;             /* Rembourrage à gauche de 70px */
+	margin-bottom: 6.25rem;         /* Marge en bas de 6.25rem */
+}
+
+.carnafull {
+	border: .125rem solid;          /* Bordure solide de .125rem */
+	margin: 1.25rem 18.75rem;       /* Marge de 1.25rem en haut et en bas, et 18.75rem à gauche et à droite */
+	box-shadow: 20px 20px 60px rgb(25, 118, 2);     /* Ombre de boîte avec un décalage horizontal de 20px, un décalage vertical de 20px, un flou de 60px et une couleur RVB de (25, 118, 2) */
+	margin-bottom: 5rem;            /* Marge en bas de 5rem */
+	border-radius: 20px;            /* Rayon de bordure de 20px pour créer des coins arrondis */
+}
+
+.h3p {
+	padding: 10px;              /* Rembourrage de 3.75rem sur tous les côtés */
+	flex: 1;                       /* Utilise l'espace disponible dans le conteneur flex */
+}
+
+/* Les types de pêche FIN  */
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  .form form {
+	width: 400px;
+	margin-top: 1.25rem;
+	padding: 20px;
+	border: 3px solid #cec40a;
+	border-radius: 5px;
+	text-align: center;
+	margin-bottom: 1.25rem;
+  }
+
+  #formdesc input{
+	height: 12.5rem;
+  }
+
+  .input{
+	width: 25rem;
+	height: 40px;
+	font-size: 30px;
+  }
+  
+  .form label, .form input[type="submit"] {
+	display: block;
+	margin-bottom: 10px;
+  }
+  
+  .form label {
+	font-weight: bold;
+  }
+
+  .formart{
+	margin-bottom: 1.25rem;
+  }
+
+  .formbutton {
+	width: 200px; /* Largeur du bouton */
+	height: 40px; /* Hauteur du bouton */
+	font-size: 16px; /* Taille de la police du bouton */
+	text-align: center;
+	margin: 0 auto; /* Centrer le bouton horizontalement */
+  }
+  .form textarea {
+	width: 100%; /* Largeur de la zone de texte */
+	height: 200px; /* Hauteur de la zone de texte */
+  }
+/*Formulaire d'ajout début*/
+
+
+
+
+/*Formulaire d'ajout fin*/
+
+/* Début Footer */
+
+.fbhead {
+	width: 3.125rem;           /* Largeur de 3.125rem */
+	height: 3.125rem;          /* Hauteur de 3.125rem */
+}
+
+.logo {
+	height: 6.25rem;           /* Hauteur de 6.25rem */
+	width: 12.5rem;            /* Largeur de 12.5rem */
+	display: flex;             /* Affiche les éléments en tant que conteneur flexible */
+	margin-left: 1.875rem;     /* Marge à gauche de 1.875rem */
+}
+
+.foot {
+	display: flex;             /* Affiche les éléments en tant que conteneur flexible */
+	justify-content: space-evenly;        /* Répartit les éléments avec un espacement égal */
+	border-top: 2px solid #20751D;      /* Bordure supérieure de 2px solide avec une couleur #20751D */
+	align-items: center;                  /* Centre les éléments verticalement dans le conteneur flexible */
+	padding-left: 1rem;
+	padding-right: 1rem;
+	box-sizing: border-box;
+}
+
+.contact {
+	font-family: 'montserrat';            /* Utilise la police 'montserrat' */
+	flex:1 0 23%;
+}
+
+footer h2 {
+	margin-bottom: .625rem;              /* Marge inférieure de .625rem */
+}
+
+#logofb {
+	width: 3.125rem;                    /* Largeur de 3.125rem */
+	height: 3.125rem;                   /* Hauteur de 3.125rem */
+}
+
+.horaire {
+	font-family: 'montserrat';          /* Utilise la police 'montserrat' */
+	display: flex;
+    flex-direction: column;
+	flex:1 0 23%;
+}
+
+.map {
+	margin: .625rem 0;                 /* Marge de .625rem en haut et en bas, pas de marge à gauche et à droite */
+	flex:1 0 23%;
+}
+
+.map iframe {
+	width: 100%;
+}
+
+.foot{
+	                       /* Espacement de 3rem entre les éléments enfants */
+	display: flex;                    /* Affiche les éléments en tant que conteneur flexible */
+	flex-wrap: wrap;
+}
+
+.link {
+	text-decoration: none;           /* Supprime la décoration du texte */
+	color: #111;                   /* Couleur du texte #111 */
+}
+
+.link:hover {
+	text-decoration: underline;      /* Souligne le texte au survol */
+	color: #20751D;                /* Couleur du texte au survol #20751D */
+}
+
+.footlogo {
+	display: flex;                  /* Affiche les éléments en tant que conteneur flexible */
+	flex-direction: column;         /* Aligne les éléments en colonne */
+	align-items: center;            /* Centre les éléments horizontalement */
+	text-align: center;             /* Centre le texte horizontalement */
+	font-family: 'montserrat';      /* Utilise la police 'montserrat' */
+	flex:1 0 23%;
+}
+
+
+/* Fin Footer */
+
+@media screen and (max-width: 1300px){
+	.descp{
+		margin-left: 2rem;
+		margin-right: 2rem;
+	}
+
+	#carou{
+		width: 75%;
+		margin: auto;
+	}
+	.carna article:nth-of-type(2n-1){
+		flex-direction: column;
+	}
+	.carna article:nth-of-type(2n){
+		flex-direction: column;
+	}
+	.carna{
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 1400px) {
+	
+	
+	.indexdesc{
+		margin:20px ;
+	}
+	.desc{
+		margin: 20px;
+	}
+	
+	
+
+	footer {
+		display: block;           /* Affiche en tant que bloc */
+	}
+}
+
+@media screen and (max-width: 1100px){ 	/*tablette*/
+#menu a{
+	
+	padding-right: 3rem;
+}
+
+	article {
+		flex-direction: column;    /* Aligne les éléments en colonne */
+	}					
+     .foot{
+		display: flex;
+		flex-wrap: wrap;
+		padding-left: 50px;
+	}
+	
+	.desc {
+		
+		margin: 20px;
+	}
+	.imghome article:nth-of-type(2n-1){
+		flex-direction: column;
+	}
+	#slider{
+		width: 100%;
+	}
+
+	
+}            
+
+@media screen and (max-width: 946px){     /*tel*/
+						
+		.foot{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding-left: 0;
+    		
+			}
+		.contact{
+			margin-left: 0;
+			padding-top: 1.25rem;
+		}
+		.footlogo{
+			padding-top: 1.25rem;
+		}
+}    
+
+@media screen and (max-width: 1024px) {
+	#menu {
+        position: relative;         /* Position relative */
+    }
+    #carou{
+        width: 90%;
+    }
+
+    #menu ul {
+        background: #111;         /* Fond de couleur #111 */
+        position: absolute;         /* Position absolue */
+        top: 100%;                  /* En haut de l'élément parent */
+        right: 0;
+        left: 0;
+        z-index: 3;                 /* Index de superposition */
+        height: auto;
+        display: none;              /* Masque l'élément */
+    }
+
+    #menu ul.sub-menus {
+        width: 100%;
+        position: static;          /* Position statique */
+    }
+
+    #menu ul.sub-menus a {
+        padding-left: 30px;        /* Espacement à gauche de 30px */
+    }
+
+    #menu li {
+        display: block;           /* Affiche en tant que bloc */
+        float: none;              /* Supprime la flottabilité */
+        width: auto;              /* Largeur automatique */
+    }
+
+    #menu input,
+    #menu label {
+        position: absolute;      /* Position absolue */
+        top: 0;
+        right: 0;
+        display: block;          /* Affiche en tant que bloc */
+    }
+
+    #menu input {
+        z-index: 4;             /* Index de superposition */
+    }
+
+    #menu input:checked+label {
+        color: white;        /* Couleur du texte blanche */
+    }
+
+    #menu input:checked+label:before {
+        content: "\00d7";      /* Contenu du pseudo-élément : "✗" */
+    }
+
+    #menu input:checked~ul {
+        display: block;        /* Affiche l'élément */
+    }
+	
+}
+
+@media screen and (max-width: 600px) {
+	.imghome article img {
+		width: 25rem;
+		margin: .625rem;
+		
+	}
+}
