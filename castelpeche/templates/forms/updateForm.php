@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php');
 require_once($_SERVER['DOCUMENT_ROOT'] . '/models/dbconnect.php');
 
 
@@ -45,4 +45,4 @@ $results = $article->fetchAll(PDO::FETCH_ASSOC);
 
 
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php');

@@ -1,4 +1,4 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
 <?php require_once($_SERVER['DOCUMENT_ROOT'] . '/models/recupeArticles.php') ?>
 
 <?php
@@ -23,5 +23,5 @@ foreach ($articles as $art) {
 } // Fin de la boucle foreach
 
 // Inclusion du fichier footer.php situé dans le répertoire DOCUMENT_ROOT/php/
-require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php')
+require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php')
 ?>

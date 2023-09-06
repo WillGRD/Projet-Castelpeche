@@ -1,4 +1,4 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
 
 <div class="form">
     <h1>Formulaire d'ajout d'article Admin</h1>
@@ -23,4 +23,4 @@
     </form>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php') ?>
