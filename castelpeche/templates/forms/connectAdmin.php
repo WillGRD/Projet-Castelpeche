@@ -1,10 +1,9 @@
-
-<?php 
+<?php
 session_start();   //On lance la session
 
 
 ?>
-<form action="./db/connectionAdmin.php" method="post">
+<form action="../../models/connectionAdmin.php" method="post">
 
     <label for="username">user name</label>
     <input type="text" name="username" id="username">

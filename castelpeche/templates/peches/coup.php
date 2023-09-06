@@ -1,19 +1,15 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/./php/header.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php') ?>
 
 <div class="typep">
     <h1>La pêche au Coup</h1>
-    <div class="footlogo">
-        <a class="fblink" href="https://www.facebook.com/groups/458043920991838" target="_blank" title="lien facebook">Rejoignez nous sur la page Facebook Castel Pêche au Coup !</a>
-        <a href="https://www.facebook.com/groups/458043920991838" target="_blank" title="lien facebook">
-            <img id="logofb" src="../src/img/logofacebook.png" alt="logo facebook"></a>
-    </div>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/templates/rejoignez_nous.php') ?>
     <p>La pêche au coup est une méthode de pêche traditionnelle et polyvalente,
         appréciée par de nombreux pêcheurs. Elle se pratique généralement dans des plans d'eau calmes tels que les étangs,
         les lacs et les rivières, en utilisant une canne à pêche spécialement conçue pour cette technique.</p>
 </div>
 <div class="carna">
     <article class="carnafull">
-        <img src="./../src/img/canne.webp" alt="">
+        <img src="../../img/canne.webp" alt="">
         <div class="h3p">
             <h3>Nos Cannes</h3>
             <p>Nos cannes à pêche pour le coup sont spécialement conçues pour répondre aux besoins des pêcheurs au coup.
@@ -23,7 +19,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="./../src/img/amorce1.webp" alt="">
+        <img src="../../img/amorce1.webp" alt="">
         <div class="h3p">
             <h3>Appâts & Amorces</h3>
             <p>Nous proposons des appâts frais et de qualité, adaptés aux différentes saisons et aux conditions de pêche.
@@ -37,7 +33,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="./../src/img/materielcarna.webp" alt="">
+        <img src="../../img/materielcarna.webp" alt="">
         <div class="h3p">
             <h3>Petit Matériel</h3>
             <p>Dans notre magasin, vous trouverez un vaste choix de petit matériel spécialement conçu pour la pêche au coup.
@@ -50,4 +46,4 @@
     </article>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/./php/footer.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php') ?>

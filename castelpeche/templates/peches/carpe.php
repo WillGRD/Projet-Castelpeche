@@ -1,12 +1,8 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/./php/header.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php') ?>
 
 <div class="typep">
     <h1>La pêche à la Carpe</h1>
-    <div class="footlogo">
-        <a class="fblink" href="https://www.facebook.com/groups/212920772235800" target="_blank" title="lien facebook">Rejoignez nous sur la page Facebook Castel Pêche de la Carpe !</a>
-        <a href="https://www.facebook.com/groups/212920772235800" target="_blank" title="lien facebook">
-            <img id="logofb" src="../src/img/logofacebook.png" alt="logo facebook"></a>
-    </div>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/templates/rejoignez_nous.php') ?>
     <p>La pêche à la carpe est une discipline très populaire parmi les pêcheurs passionnés.
         Elle met l'accent sur la patience, la stratégie et la recherche d'un poisson réputé pour sa taille,
         sa force et sa ruse. La pêche à la carpe offre une expérience calme et relaxante en plein air,
@@ -14,7 +10,7 @@
 </div>
 <div class="carna">
     <article class="carnafull">
-        <img src="./../src/img/moulinet1.webp" alt="">
+        <img src="../../img/moulinet1.webp" alt="">
         <div class="h3p">
             <h3>Nos Moulinets</h3>
             <p>Nous proposons une variété de moulinets spécifiquement conçus pour répondre aux besoins des pêcheurs à la carpe.
@@ -23,7 +19,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="./../src/img/pêche6.webp" alt="">
+        <img src="../../img/pêche6.webp" alt="">
         <div class="h3p">
             <h3>Nos appats et additifs</h3>
             <p>Nos leurres et cuilléres sont conçus avec une attention minutieuse aux détails pour imiter parfaitement les proies préférées des carnassiers.
@@ -33,7 +29,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="./../src/img/canne.webp" alt="">
+        <img src="../../img/canne.webp" alt="">
         <div class="h3p">
             <h3>Nos Cannes & Enssembles</h3>
             <p>Découvrez notre sélection exceptionnelle de cannes et d'ensembles spécialement conçus pour la pêche au carnassier.
@@ -43,7 +39,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="./../src/img/materielcarna.webp" alt="">
+        <img src="../../img/materielcarna.webp" alt="">
         <div class="h3p">
             <h3>Petit matériel</h3>
             <p>Notre sélection de petits matériels pour la pêche à la carpe comprend une gamme complète d'articles conçus pour répondre aux besoins des carpistes.
@@ -53,4 +49,4 @@
     </article>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/./php/footer.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php') ?>

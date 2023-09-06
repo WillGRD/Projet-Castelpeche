@@ -1,5 +1,5 @@
 <?php
-require_once('dbconnect.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/models/dbconnect.php');
 // Préparation de la requête pour récupérer tous les articles
 $recupeArticle = $database->prepare("SELECT * FROM article");
 

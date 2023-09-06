@@ -1,7 +1,6 @@
 <?php
-require_once('../php/db/dbconnect.php');
-
-require_once($_SERVER['DOCUMENT_ROOT'] . '/./php/header.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/models/dbconnect.php');
 
 
 $idArticle = $_GET["id"];
@@ -18,7 +17,7 @@ $results = $article->fetchAll(PDO::FETCH_ASSOC);
 <div class="form">
     <h1>Modification d'article</h1>
     <form action="./db/updateArticle.php" method="post">
-        <input type="hidden" name="id" value="<?php echo $idArticle?>">
+        <input type="hidden" name="id" value="<?php echo $idArticle ?>">
         <?php
         foreach ($results as $articleCourant) { ?>
             <div class="formart">
@@ -46,4 +45,4 @@ $results = $article->fetchAll(PDO::FETCH_ASSOC);
 
 
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'] . '/./php/footer.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php');
