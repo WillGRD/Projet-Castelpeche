@@ -1,5 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/models/recupeArticles.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/models/recupeArticles.php') ?>
 
 <?php
 
@@ -12,7 +12,7 @@ foreach ($articles as $art) {
             <h3><?php echo $art["nom"]; ?></h3> <!-- Affiche le nom de l'article -->
             <?php if (!empty($_SESSION['user'])) {
             ?>
-                <a href="../forms/updateForm.php?id=<?php echo $art["id"] ?>" class="update"> Modifier</a> <!-- Je récupére l'id de l'article pour le modifier -->
+                <a href="/castelpeche/templates/forms/updateForm.php?id=<?php echo $art["id"] ?>" class="update"> Modifier</a> <!-- Je récupére l'id de l'article pour le modifier -->
                 <button class="sup" data-id="<?php echo $art["id"] ?>">Suprimer</button> <!-- Je récupére l'id de l'article pour le suprimer -->
             <?php } ?>
 

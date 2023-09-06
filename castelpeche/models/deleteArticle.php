@@ -1,5 +1,5 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'] . '/models/dbconnect.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/models/dbconnect.php');
 
 $article = $_POST["article"];
 $requeteSupresion = $database->prepare("DELETE FROM article WHERE id=:id");

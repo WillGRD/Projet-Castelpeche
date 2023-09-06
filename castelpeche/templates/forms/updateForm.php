@@ -1,6 +1,6 @@
 <?php
 require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/models/dbconnect.php');
+require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/models/dbconnect.php');
 
 
 $idArticle = $_GET["id"];
@@ -16,7 +16,7 @@ $results = $article->fetchAll(PDO::FETCH_ASSOC);
 
 <div class="form">
     <h1>Modification d'article</h1>
-    <form action="./db/updateArticle.php" method="post">
+    <form action="/castelpeche/models/updateArticle.php" method="post">
         <input type="hidden" name="id" value="<?php echo $idArticle ?>">
         <?php
         foreach ($results as $articleCourant) { ?>
