@@ -217,11 +217,12 @@ body {
 
 .carnafull img {
 	max-width: 31.25rem;
+	width: 100%;
 }
 
 article p {
 	font-family: 'montserrat';        /* Utilise la police de caractères 'montserrat' */
-	font-size: large;                 /* Taille de police large */
+	font-size: 1.15rem;                 /* Taille de police large */
 	display: block;                   /* Affiche les paragraphes en tant que blocs */
 	color: rgb(2, 65, 2);           /* Couleur du texte en RVB(2, 65, 2) */
 }
@@ -259,6 +260,7 @@ article h3 {
 	margin: 3rem 6rem;                                 /* Marge de 1.25rem en haut/bas et 18.75rem à gauche/droite */
 	align-items: center;                               /* Alignement horizontal des éléments au centre */
 	box-shadow: 20px 20px 60px rgb(25, 118, 2);      /* Ombre portée avec un décalage de 20px à droite et en bas, un flou de 60px et une couleur RGB(25, 118, 2) */
+	font-size: 1.50rem;
 }
 
 .imgdesc {               /* Hauteur de 400px */
@@ -299,15 +301,20 @@ article h3 {
 	padding-bottom: .3125rem;     /* Rembourrage en bas de .3125rem */
 }
 
+.typep {
+	border: 0.125rem solid;
+	box-shadow: 20px 20px 60px rgb(25, 118, 2);
+	margin: 1rem 2rem;
+}
+
 .typep p {
-	          
 	font-family: 'montserrat';    /* Utilise la police de caractères 'montserrat' */
 	padding-top: 2.5rem;          /* Rembourrage en haut de 2.5rem */
 	padding-bottom: 3.125rem;     /* Rembourrage en bas de 3.125rem */
 	padding: 3.125rem;            /* Rembourrage de 3.125rem sur tous les côtés */
-	margin-left: 15.625rem;       /* Marge à gauche de 15.625rem */
-	margin-right: 15.625rem;      /* Marge à droite de 15.625rem */
-	text-align: justify;          /* Alignement du texte justifié */
+	margin: 0.625rem 3rem;
+	font-size: 1.5rem;
+	
 }
 
 .typep h1 {
@@ -493,6 +500,8 @@ footer h2 {
 
 /* Fin Footer */
 
+/* Debut Responsiv*/
+
 @media screen and (max-width: 1300px){
 	.descp{
 		margin-left: 2rem;
@@ -544,11 +553,18 @@ footer h2 {
 	.desc {		
 		margin: 20px;
 	}
-	.imghome article:nth-of-type(2n-1){
-		flex-direction: column;
-	}
+
 	#slider{
 		width: 100%;
+	}
+	article p {
+		font-size: 1rem;
+	}
+	.texthome {
+		font-size: 1rem;
+	}
+	.typep p {
+		margin: 1rem;
 	}
 }            
 
@@ -630,6 +646,20 @@ footer h2 {
     #menu input:checked~ul {
         display: block;        /* Affiche l'élément */
     }
+		.imghome article:nth-of-type(2n-1){
+		flex-direction: column;
+	}
+	     article {
+		flex-direction: column;    /* Aligne les éléments en colonne */
+	}
+	.carna article:nth-of-type(2n-1) {
+		margin: 0;
+		margin-bottom: 3.125rem;
+	}
+	.carna article:nth-of-type(2n) {
+		margin: 0;
+		margin-bottom: 3.125rem;
+	}
 	
 }
 
@@ -638,9 +668,7 @@ footer h2 {
 		width: 100%;
 		margin: .300rem;		
 	}
-	.imgdesc {
 
-	}
 	#h1 {
 		font-size: 2.20rem;
 	}
@@ -650,6 +678,4 @@ footer h2 {
 	}
 }
 
-@media screen and (max-with: 490px) {
-
-}
+/* Fin Responsiv*/
