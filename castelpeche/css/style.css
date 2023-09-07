@@ -529,7 +529,7 @@ footer h2 {
 }
 
 .foot{
-	                       /* Espacement de 3rem entre les éléments enfants */
+	                                /* Espacement de 3rem entre les éléments enfants */
 	display: flex;                    /* Affiche les éléments en tant que conteneur flexible */
 	flex-wrap: wrap;
 }

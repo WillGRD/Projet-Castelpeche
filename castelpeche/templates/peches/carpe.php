@@ -1,8 +1,8 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
 
 <div class="typep">
     <h1>La pêche à la Carpe</h1>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/templates/rejoignez_nous.php') ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/rejoignez_nous.php') ?>
     <p>La pêche à la carpe est une discipline très populaire parmi les pêcheurs passionnés.
         Elle met l'accent sur la patience, la stratégie et la recherche d'un poisson réputé pour sa taille,
         sa force et sa ruse. La pêche à la carpe offre une expérience calme et relaxante en plein air,
@@ -49,4 +49,4 @@
     </article>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php') ?>

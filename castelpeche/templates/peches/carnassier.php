@@ -1,9 +1,9 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
 
 <div>
     <div class="typep">
         <h1>La pêche aux Carnassiers</h1>
-        <?php include($_SERVER['DOCUMENT_ROOT'] . '/templates/rejoignez_nous.php') ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/rejoignez_nous.php') ?>
         <p class="descp">La pêche au carnassier est une forme de pêche spécialisée qui vise des espèces de poissons prédateurs tels que le brochet,
             le black-bass, le sandre et le silure. Elle est appréciée pour son côté technique et excitant,
             car elle nécessite des techniques de pêche spécifiques et un équipement adapté.</p>
@@ -48,4 +48,4 @@
     </div>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php') ?>

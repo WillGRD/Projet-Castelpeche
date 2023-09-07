@@ -1,9 +1,9 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
 
 <div>
     <div class="typep">
         <h1>La pêche au Feeder</h1>
-        <?php include($_SERVER['DOCUMENT_ROOT'] . '/templates/rejoignez_nous.php'); ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/rejoignez_nous.php'); ?>
         <p class="descp">La pêche au feeder est une technique de pêche polyvalente et efficace. Elle consiste à utiliser un feeder,
             un dispositif contenant de l'amorce, pour attirer les poissons vers votre zone de pêche.</p>
     </div>
@@ -47,4 +47,4 @@
     </div>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php') ?>

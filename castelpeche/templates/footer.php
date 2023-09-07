@@ -20,11 +20,12 @@
         <div class="footlogo">
             <a class="fblink" href="https://www.facebook.com/castel.peche" target="_blank" title="lien facebook">Rejoignez nous sur Facebook !</a>
             <a href="https://www.facebook.com/castel.peche" target="_blank" title="lien facebook">
-                <img id="logofb" src="/img/logofacebook.png" alt="logo facebook"></a>
+                <img id="logofb" src="/castelpeche/img/logofacebook.png" alt="logo facebook"></a>
         </div>
 
         <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5231.614740710473!2d3.3695087935791124!3d49.033270599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8e88797830267%3A0xd0a469f34d529e17!2sSarl%20Castel%20P%C3%AAche!5e0!3m2!1sfr!2sfr!4v1682607389220!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5231.614740710473!2d3.3695087935791124!3d49.033270599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8e88797830267%3A0xd0a469f34d529e17!2sSarl%20Castel%20P%C3%AAche!5e0!3m2!1sfr!2sfr!4v1682607389220!5m2!1sfr!2sfr"
+                 style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
 </footer>

@@ -1,8 +1,8 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/header.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
 
 <div class="typep">
     <h1>La pêche au Coup</h1>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/templates/rejoignez_nous.php') ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/rejoignez_nous.php') ?>
     <p>La pêche au coup est une méthode de pêche traditionnelle et polyvalente,
         appréciée par de nombreux pêcheurs. Elle se pratique généralement dans des plans d'eau calmes tels que les étangs,
         les lacs et les rivières, en utilisant une canne à pêche spécialement conçue pour cette technique.</p>
@@ -46,4 +46,4 @@
     </article>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/templates/footer.php') ?>
+<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php') ?>
