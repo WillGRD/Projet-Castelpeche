@@ -1,4 +1,7 @@
-<?php require_once('header.php') ?>
+<?php 
+    require_once('header.php');
+    echo '<script type="text/javascript" defer src="/castelpeche/scripts/carousel.js"></script>';
+?>
 
 <main>
     <section class="indexdesc">
