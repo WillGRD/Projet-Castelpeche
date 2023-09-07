@@ -14,9 +14,9 @@
             <input class="input" type="photo" id="photo" name="photo" required>
         </div>
 
-        <div class="formart" id="formdesc">
+        <div class="formart">
             <label for="description">DESCRIPTION</label>
-            <input class="input" cols="30" rows="5" type="description" id="description" name="description" required>
+            <textarea class="input" rows="5" type="description" id="description" name="description" required></textarea>
         </div>
 
         <input class="formbutton" type="submit" value="Ajouter l'article">

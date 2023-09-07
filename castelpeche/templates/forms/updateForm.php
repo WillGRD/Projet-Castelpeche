@@ -30,7 +30,7 @@ $results = $article->fetchAll(PDO::FETCH_ASSOC);
             </div>
             <div class="formart" id="formdesc">
                 <label for="description">DESCRIPTION</label>
-                <input class="input" cols="30" rows="5" type="description" id="description" name="description" required value="<?php echo $articleCourant["description"] ?>">
+                <textarea class="input" rows="5" type="description" id="description" name="description" required value="<?php echo $articleCourant["description"] ?>"></textarea>
             </div>
         <?php } ?>
 
