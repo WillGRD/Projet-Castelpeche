@@ -2,7 +2,7 @@
 
 <main>
     <section class="indexdesc">
-        <img class=imgdesc src="../img/castel.jpg" alt="photo du magasin castel pêche">
+        <img class=imgdesc src="../img/panneaucastel.webp" alt="photo du magasin castel pêche">
         <div>
             <h1 id="h1">Bienvenue dans la boutique Castel Pêche</h1>
         </div>

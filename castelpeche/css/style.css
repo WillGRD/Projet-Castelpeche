@@ -97,8 +97,6 @@ ul li a {
 	margin: auto;                            /* Marge automatiquement ajustée en fonction de l'espace disponible horizontalement */
 }
 
-
-
 #menu li {
 	margin: 0 auto;                          /* Marge de 0 de chaque côté et centrée horizontalement */
 	padding: 0;                              /* Pas de rembourrage intérieur */
@@ -198,83 +196,35 @@ a:hover {
 }
 
 article a {
-	text-decoration: none;                 /* Supprime la décoration du texte pour les liens à l'intérieur d'articles */
-}
-
-a:visited {
-    color: rgb(0, 0, 0);                 /* Définit la couleur du texte pour les liens visités en noir */
+	text-decoration: none;                /* Supprime la décoration du texte pour les liens à l'intérieur d'articles */
+	color: black;                       /* Donne la couleur noir de mes liens qui redirige vers mes pages articles*/
 }
 
 body {
 	background-color: rgb(238, 236, 236); /* Définit la couleur d'arrière-plan du corps en RGB(238, 236, 236) */
 }
 
-.texthome {
-	margin: 0.625rem 6.25rem;               /* Marge de 0.625rem en haut/bas et 6.25rem à gauche/droite */
-	text-align: justify;                    /* Aligne le texte de manière justifiée */
-	font-family: 'montserrat';              /* Utilise la police de caractères 'montserrat' */
-	                     /* Taille de police de 1.75rem */
-	display: flex;                          /* Affiche les éléments en tant que conteneur flexible */
-	flex-direction: column;                 /* Organise les éléments en colonne */
-}
-
-.imgindex2 {
-	border-radius: 3.125rem;                   /* Ajoute un bord arrondi avec un rayon de 50px */
-	margin-top: 1.5625rem;                 /* Marge en haut de 1.5625rem */
-	width: 56.25rem;                       /* Largeur de 56.25rem */
-	height: 37.5rem;                       /* Hauteur de 37.5rem */
-}
-
-.imgindex3 {
-	border-radius: 3.125rem;                   /* Ajoute un bord arrondi avec un rayon de 50px */
-	margin-top: 1.5625rem;                 /* Marge en haut de 1.5625rem */
-	width: 56.25rem;                       /* Largeur de 56.25rem */
-	height: 37.5rem;                       /* Hauteur de 37.5rem */
-}
-
-.imgindex1 {
-	border-radius: 3.125rem;                   /* Ajoute un bord arrondi avec un rayon de 50px */
-	margin-top: 1.5625rem;                 /* Marge en haut de 1.5625rem */
-	width: 56.25rem;                       /* Largeur de 56.25rem */
-	height: 37.5rem;                       /* Hauteur de 37.5rem */
-}
-
-.imghome article {
-	display: flex;                        /* Affiche les articles en tant que conteneurs flexibles */
-	margin: 0 2.5rem;                     /* Marge de 0 en haut/bas et 2.5rem à gauche/droite */
-}
-
 .imghome article:nth-of-type(2n-1) {
 	flex-direction: row-reverse;         /* Inverse la direction des éléments fils dans les articles de rang impair */
 	margin-bottom: 2.5rem;               /* Marge en bas de 2.5rem */
-	margin-right: 3.125rem;              /* Marge à droite de 3.125rem */
 	margin-top: 3.125rem;                /* Marge en haut de 3.125rem */
 }
 
 .imghome img {
-	width: 31.25rem;
-	height: 18.75rem;
+	max-width: 31.25rem;
+	width: 100%;
 }
 
 .carnafull img {
-	width: 31.25rem;
-	height: 18.75rem;
-}
-
-.imghome article:nth-of-type(2n) {
-	margin-left: 3.125rem;             /* Marge à gauche de 3.125rem pour les articles de rang pair */
+	max-width: 31.25rem;
+	width: 100%;
 }
 
 article p {
 	font-family: 'montserrat';        /* Utilise la police de caractères 'montserrat' */
-	font-size: large;                 /* Taille de police large */
+	font-size: 1.15rem;                 /* Taille de police large */
 	display: block;                   /* Affiche les paragraphes en tant que blocs */
 	color: rgb(2, 65, 2);           /* Couleur du texte en RVB(2, 65, 2) */
-	                  /* Rembourrage de 0 en haut/bas et 60px à gauche/droite */
-	margin-block-start: 1em;          /* Marge de départ du bloc de 1em */
-	margin-block-end: 1em;            /* Marge de fin du bloc de 1em */
-	margin-inline-start: 0px;         /* Marge intérieure de début de 0px */
-	margin-inline-end: 0px;           /* Marge intérieure de fin de 0px */
 }
 
 article {
@@ -289,14 +239,12 @@ article h3 {
 	text-transform: uppercase;      /* Transforme le texte en majuscules */
 	text-align: center;             /* Alignement du texte au centre */
 }
-a:visited{
-	color: #000000;
-}
+
 .desc {
 	border: .125rem solid;          /* Bordure solide de .125rem */ 
 	display: flex;                  /* Affiche les éléments en tant que conteneur flexible */
 	flex-direction: column;         /* Organise les éléments en colonne */
-	margin:200px;                   /* Marge de 1.25rem en haut/bas et 18.75rem à gauche/droite */
+	margin:150px;                   /* Marge de 1.25rem en haut/bas et 18.75rem à gauche/droite */
 	align-items: center;            /* Alignement horizontal des éléments au centre */
 	box-shadow: 20px 20px 60px rgb(25, 118, 2);       /* Ombre portée avec un décalage de 20px à droite et en bas, un flou de 60px et une couleur RGB(25, 118, 2) */
 	margin-bottom: 5rem;            /* Marge en bas de 5rem */
@@ -306,37 +254,32 @@ a:visited{
 }
 
 .indexdesc {
-	border: .125rem solid;          /* Bordure solide de .125rem */
-	display: flex;                  /* Affiche les éléments en tant que conteneur flexible */
-	flex-direction: column;         /* Organise les éléments en colonne */
-	margin: 1.25rem 18.75rem;       /* Marge de 1.25rem en haut/bas et 18.75rem à gauche/droite */
-	align-items: center;            /* Alignement horizontal des éléments au centre */
+	border: .125rem solid;                             /* Bordure solide de .125rem */
+	display: flex;                                     /* Affiche les éléments en tant que conteneur flexible */
+	flex-direction: column;                            /* Organise les éléments en colonne */
+	margin: 3rem 6rem;                                 /* Marge de 1.25rem en haut/bas et 18.75rem à gauche/droite */
+	align-items: center;                               /* Alignement horizontal des éléments au centre */
 	box-shadow: 20px 20px 60px rgb(25, 118, 2);      /* Ombre portée avec un décalage de 20px à droite et en bas, un flou de 60px et une couleur RGB(25, 118, 2) */
-	margin-bottom: 5rem;            /* Marge en bas de 5rem */
+	font-size: 1.50rem;
 }
 
-.imgdesc {
-	width: 400px;                  /* Largeur de 400px */
-	height: 400px;                 /* Hauteur de 400px */
-	border-radius: 50px;           /* Ajoute un bord arrondi avec un rayon de 50px */
-	margin-top: 1.5625rem;         /* Marge en haut de 1.5625rem */
+.imgdesc {               /* Hauteur de 400px */
+	object-fit: contain;
+	width: 100%;
+	margin-top: 50px;
 }
 
 .texthome {
-	margin: .625rem 6.25rem;       /* Marge de .625rem en haut/bas et 6.25rem à gauche/droite */
-	text-align: justify;           /* Aligne le texte de manière justifiée */
+	margin: .625rem 3rem;          /* Marge de .625rem en haut/bas et 6.25rem à gauche/droite */
 	font-family: 'montserrat';     /* Utilise la police de caractères 'montserrat' */
-	                            /* Taille de police de 2.0625rem */
-}
-
-.texthome p {
 	margin-bottom: 1rem;           /* Marge en bas de 1rem pour les paragraphes à l'intérieur de .texthome */
+	display: flex;                          /* Affiche les éléments en tant que conteneur flexible */
+	flex-direction: column;                 /* Organise les éléments en colonne */
 }
 
 #h1 {
 	font-family: 'roboto';         /* Utilise la police de caractères 'roboto' */
 	font-size: 3.125rem;            /* Taille de police de 3.75rem */
-	margin-top: 1.5625rem;         /* Marge en haut de 1.5625rem */
 	padding: 1.875rem;             /* Rembourrage de 1.875rem */
 	text-align: center;
 }
@@ -352,25 +295,26 @@ a:visited{
 
 /* Les types de pêche DEBUT  */
 
-a:visited {
-	color: rgb(0, 0, 0);        /* Couleur du lien visité en noir */
-}
-
 .fblink {
 	font-size: 1.25rem;            /* Taille de police de 2rem */
 	text-decoration: none;        /* Pas de décoration de texte */
 	padding-bottom: .3125rem;     /* Rembourrage en bas de .3125rem */
 }
 
+.typep {
+	border: 0.125rem solid;
+	box-shadow: 20px 20px 60px rgb(25, 118, 2);
+	margin: 1rem 2rem;
+}
+
 .typep p {
-	          
 	font-family: 'montserrat';    /* Utilise la police de caractères 'montserrat' */
 	padding-top: 2.5rem;          /* Rembourrage en haut de 2.5rem */
 	padding-bottom: 3.125rem;     /* Rembourrage en bas de 3.125rem */
 	padding: 3.125rem;            /* Rembourrage de 3.125rem sur tous les côtés */
-	margin-left: 15.625rem;       /* Marge à gauche de 15.625rem */
-	margin-right: 15.625rem;      /* Marge à droite de 15.625rem */
-	text-align: justify;          /* Alignement du texte justifié */
+	margin: 0.625rem 3rem;
+	font-size: 1.5rem;
+	
 }
 
 .typep h1 {
@@ -517,6 +461,7 @@ footer h2 {
 	display: flex;
     flex-direction: column;
 	flex:1 0 23%;
+	margin-top: 20px;
 }
 
 .map {
@@ -548,13 +493,14 @@ footer h2 {
 	display: flex;                  /* Affiche les éléments en tant que conteneur flexible */
 	flex-direction: column;         /* Aligne les éléments en colonne */
 	align-items: center;            /* Centre les éléments horizontalement */
-	text-align: center;             /* Centre le texte horizontalement */
 	font-family: 'montserrat';      /* Utilise la police 'montserrat' */
 	flex:1 0 23%;
 }
 
 
 /* Fin Footer */
+
+/* Debut Responsiv*/
 
 @media screen and (max-width: 1300px){
 	.descp{
@@ -578,8 +524,6 @@ footer h2 {
 }
 
 @media screen and (max-width: 1400px) {
-	
-	
 	.indexdesc{
 		margin:20px ;
 	}
@@ -587,20 +531,17 @@ footer h2 {
 		margin: 20px;
 	}
 	
-	
-
 	footer {
 		display: block;           /* Affiche en tant que bloc */
 	}
 }
 
-@media screen and (max-width: 1100px){ 	/*tablette*/
+@media screen and (max-width: 800px){ 	/*tablette*/
 #menu a{
-	
 	padding-right: 3rem;
 }
 
-	article {
+     article {
 		flex-direction: column;    /* Aligne les éléments en colonne */
 	}					
      .foot{
@@ -609,18 +550,22 @@ footer h2 {
 		padding-left: 50px;
 	}
 	
-	.desc {
-		
+	.desc {		
 		margin: 20px;
 	}
-	.imghome article:nth-of-type(2n-1){
-		flex-direction: column;
-	}
+
 	#slider{
 		width: 100%;
 	}
-
-	
+	article p {
+		font-size: 1rem;
+	}
+	.texthome {
+		font-size: 1rem;
+	}
+	.typep p {
+		margin: 1rem;
+	}
 }            
 
 @media screen and (max-width: 946px){     /*tel*/
@@ -638,6 +583,9 @@ footer h2 {
 		}
 		.footlogo{
 			padding-top: 1.25rem;
+		}
+		.texthome{
+			margin: 1rem;
 		}
 }    
 
@@ -698,13 +646,36 @@ footer h2 {
     #menu input:checked~ul {
         display: block;        /* Affiche l'élément */
     }
+		.imghome article:nth-of-type(2n-1){
+		flex-direction: column;
+	}
+	     article {
+		flex-direction: column;    /* Aligne les éléments en colonne */
+	}
+	.carna article:nth-of-type(2n-1) {
+		margin: 0;
+		margin-bottom: 3.125rem;
+	}
+	.carna article:nth-of-type(2n) {
+		margin: 0;
+		margin-bottom: 3.125rem;
+	}
 	
 }
 
 @media screen and (max-width: 600px) {
 	.imghome article img {
-		width: 25rem;
-		margin: .625rem;
-		
+		width: 100%;
+		margin: .300rem;		
+	}
+
+	#h1 {
+		font-size: 2.20rem;
+	}
+
+	#h2 {
+		font-size: 2rem;
 	}
 }
+
+/* Fin Responsiv*/
