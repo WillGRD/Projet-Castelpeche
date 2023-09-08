@@ -299,19 +299,18 @@ article h3 {
 	font-size: 1.25rem;            /* Taille de police de 2rem */
 	text-decoration: none;        /* Pas de décoration de texte */
 	padding-bottom: .3125rem;     /* Rembourrage en bas de .3125rem */
+	text-align: center;
 }
 
 .typep {
 	border: 0.125rem solid;
 	box-shadow: 20px 20px 60px rgb(25, 118, 2);
-	margin: 1rem 2rem;
+	margin: 5rem 8rem;
 }
 
 .typep p {
 	font-family: 'montserrat';    /* Utilise la police de caractères 'montserrat' */
 	padding-top: 2.5rem;          /* Rembourrage en haut de 2.5rem */
-	padding-bottom: 3.125rem;     /* Rembourrage en bas de 3.125rem */
-	padding: 3.125rem;            /* Rembourrage de 3.125rem sur tous les côtés */
 	margin: 0.625rem 3rem;
 	font-size: 1.5rem;
 	
@@ -319,7 +318,7 @@ article h3 {
 
 .typep h1 {
 	font-family: 'roboto';       /* Utilise la police de caractères 'roboto' */
-	font-size: 3.75rem;          /* Taille de police de 3.75rem */
+	font-size: 3rem;             /* Taille de police de 3.75rem */
 	margin-top: 1.5625rem;       /* Marge en haut de 1.5625rem */
 	padding: 1.875rem;           /* Rembourrage de 1.875rem sur tous les côtés */
 	text-align: center;          /* Alignement du texte au centre */
@@ -335,7 +334,7 @@ article h3 {
 	margin-right: 5rem;             /* Marge à droite de 5rem */
 	margin-top: 3.125rem;           /* Marge en haut de 3.125rem */
 	padding: 1.25rem;               /* Rembourrage de 1.25rem sur tous les côtés */
-	padding-right: 70px;            /* Rembourrage à droite de 70px */
+	           /* Rembourrage à droite de 70px */
 	margin-bottom: 100px;           /* Marge en bas de 100px */
 }
 
@@ -343,7 +342,7 @@ article h3 {
 	margin-left: 5rem;              /* Marge à gauche de 5rem */
 	margin-bottom: 2.5rem;          /* Marge en bas de 2.5rem */
 	padding: 1.25rem;               /* Rembourrage de 1.25rem sur tous les côtés */
-	padding-left: 70px;             /* Rembourrage à gauche de 70px */
+	            /* Rembourrage à gauche de 70px */
 	margin-bottom: 6.25rem;         /* Marge en bas de 6.25rem */
 }
 
@@ -368,10 +367,9 @@ article h3 {
   }
   
   .form form {
-	width: 400px;
 	margin-top: 1.25rem;
 	padding: 20px;
-	border: 3px solid #cec40a;
+	background: #cec40a;
 	border-radius: 5px;
 	text-align: center;
 	margin-bottom: 1.25rem;
@@ -382,9 +380,13 @@ article h3 {
   }
 
   .input{
-	width: 25rem;
+	width: 20rem;;
 	height: 40px;
 	font-size: 30px;
+  }
+
+  .form h1 {
+	text-align: center;
   }
   
   .form label, .form input[type="submit"] {
@@ -408,9 +410,34 @@ article h3 {
 	margin: 0 auto; /* Centrer le bouton horizontalement */
   }
   .form textarea {
-	width: 100%; /* Largeur de la zone de texte */
 	height: 200px; /* Hauteur de la zone de texte */
+	width: 20rem;
   }
+
+  .btn-warning {
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+
+  .btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+  }
+
+  .btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
 /*Formulaire d'ajout début*/
 
 
@@ -564,8 +591,15 @@ footer h2 {
 		font-size: 1rem;
 	}
 	.typep p {
-		margin: 1rem;
+		margin: 1rem!important;
 	}
+	.typep h1 {
+		font-size: 2rem;
+	}
+	p.descp {
+		font-size: 1rem;
+	}
+	
 }            
 
 @media screen and (max-width: 946px){     /*tel*/
@@ -649,7 +683,7 @@ footer h2 {
 		.imghome article:nth-of-type(2n-1){
 		flex-direction: column;
 	}
-	     article {
+	article {
 		flex-direction: column;    /* Aligne les éléments en colonne */
 	}
 	.carna article:nth-of-type(2n-1) {
@@ -659,6 +693,12 @@ footer h2 {
 	.carna article:nth-of-type(2n) {
 		margin: 0;
 		margin-bottom: 3.125rem;
+	}
+	.descp {
+		margin: 1rem;
+	}
+	.typep {
+		margin: 20px;
 	}
 	
 }

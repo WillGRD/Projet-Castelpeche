@@ -1,14 +1,25 @@
 <?php
-session_start();   //On lance la session
 
-
+require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php');
 ?>
-<form action="../../models/connectionAdmin.php" method="post">
 
-    <label for="username">user name</label>
-    <input type="text" name="username" id="username">
-    <label for="password">password</label>
-    <input type="password" name="password" id="password">
-    <button type="submit">Connexion</button>
+<div class="form">
+    <h1>Connection Admin</h1>
+    <form  action="../../models/connectionAdmin.php" method="post">
+    
+        <div class="formart">
+            <label for="username">Nom d'utilisateur</label>
+            <input type="text" name="username" id="username">
+        </div>
+        <div class="formart">
+            <label for="password">Mot de Passe</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <button class="formbutton" type="submit">Connexion</button>
+    
+    </form>
+</div>
 
-</form>
+<?php 
+require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php');
+?>
