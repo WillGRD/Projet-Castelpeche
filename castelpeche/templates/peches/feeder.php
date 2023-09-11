@@ -9,7 +9,7 @@
     </div>
     <div class="carna">
         <article class="carnafull">
-            <img src="../../img/moulinet1.webp" alt="">
+            <img src="../../img/moulinet1.webp" alt="Photo d'un moulinet">
             <div class="h3p">
                 <h3>Nos Moulinets</h3>
                 <p>Nos moulinets pour la pêche au carnassier sont conçus pour répondre aux besoins des pêcheurs à la recherche de performances et de fiabilité.
@@ -17,7 +17,7 @@
             </div>
         </article>
         <article class="carnafull">
-            <img src="../../img/pêche6.webp" alt="">
+            <img src="../../img/pêche6.webp" alt="Photo de deux boite de leurres">
             <div class="h3p">
                 <h3>Nos Leurres & Cuilléres</h3>
                 <p>Nos leurres et cuilléres sont conçus avec une attention minutieuse aux détails pour imiter parfaitement les proies préférées des carnassiers.
@@ -27,7 +27,7 @@
             </div>
         </article>
         <article class="carnafull">
-            <img src="../../img/canne.webp" alt="">
+            <img src="../../img/canne.webp" alt="Photo d'un lancé">
             <div class="h3p">
                 <h3>Nos Cannes & Enssembles</h3>
                 <p>Découvrez notre sélection exceptionnelle de cannes et d'ensembles spécialement conçus pour la pêche au carnassier.
@@ -36,7 +36,7 @@
             </div>
         </article>
         <article class="carnafull">
-            <img src="../../img/materielcarna.webp" alt="">
+            <img src="../../img/materielcarna.webp" alt="Photo d'une boite avec du petit matériel">
             <div class="h3p">
                 <h3>Petit Matériel</h3>
                 <p>Notre magasin propose un large choix de petit matériel pour la pêche au carnassier.

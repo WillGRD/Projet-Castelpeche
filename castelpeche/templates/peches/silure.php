@@ -8,7 +8,7 @@
 </div>
 <div class="carna">
     <article class="carnafull">
-        <img src="../../img/moulinet1.webp" alt="">
+        <img src="../../img/moulinet1.webp" alt="Photo d'un moulinet">
         <div class="h3p">
             <h3>Nos Moulinets</h3>
             <p>Nos moulinets sont dotés de systèmes de freinage puissants et progressifs pour gérer les combats intenses avec les silures.
@@ -17,7 +17,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="../../img/pêche6.webp" alt="">
+        <img src="../../img/pêche6.webp" alt="Photo de deux boite de leurres">
         <div class="h3p">
             <h3>Nos Leurres et appats</h3>
             <p>En visitant notre magasin, vous trouverez une variété d'options en termes de couleurs,
@@ -26,7 +26,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="../../img/canne.webp" alt="">
+        <img src="../../img/canne.webp" alt="Photo d'un lancé">
         <div class="h3p">
             <h3>Nos Cannes & Enssembles</h3>
             <p>Nous offrons une gamme de cannes ainsi que des ensembles spécialement conçues pour la pêche au silure.
@@ -35,7 +35,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="../../img/materielcarna.webp" alt="">
+        <img src="../../img/materielcarna.webp" alt="Photo d'une boite avec du petit matériel">
         <div class="h3p">
             <h3>Petit matériel</h3>
             <p>Notre gamme de petits matériels pour la pêche du silure comprend une variété de montages et d'appâts spécialisés,
