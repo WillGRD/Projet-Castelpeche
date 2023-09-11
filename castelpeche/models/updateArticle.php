@@ -4,7 +4,7 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/models/dbconnect.php');
 $titre = $_POST["titre"];     //On récupére les variable envoyer du formulaire en méthode POST
 $photo = $_POST["photo"];     //On récupére les variable envoyer du formulaire en méthode POST
 $description = $_POST["description"];    //On récupére les variable envoyer du formulaire en méthode POST
-$id = $_POST["id"];     //On récupére les variable envoyer du formulaire en méthode POST
+$id = $_POST["id"];     //On récupére les variables envoyer du formulaire en méthode POST
 
 if (!empty($titre) && !empty($photo) && !empty($description) && !empty($id)) {    //On vérifie que toute les variables ne soit pas vide
     $requeteMaj = $database->prepare("UPDATE article SET nom = :titre, image = :photo, description = :desc WHERE id = :art"); // On prepare la requete

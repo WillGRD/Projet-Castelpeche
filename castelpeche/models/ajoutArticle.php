@@ -11,7 +11,7 @@ $requeteAjout->bindParam('nom', $name);               //On ajoute les paramétre
 $requeteAjout->bindParam('image', $photo);            //On ajoute les paramétres à la requete
 $requeteAjout->bindParam('description', $desc);       //On ajoute les paramétres à la requete
 
-$requeteAjout->execute();           //On execute la requete
+$requeteAjout->execute();    //On execute la requete
 
 header('Location: ../templates/actualite.php'); //Charge l'entéte de la page, redirection vers actualite.php
 }
