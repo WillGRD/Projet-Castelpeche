@@ -19,3 +19,6 @@ header('Location: ../templates/actualite.php'); //Charge l'entéte de la page, r
 else {             //Si le champ est vide on reste sur la page connection pour remplir le champ correctement
     echo 'Vous devez renseigner quelque chose';   //On affiche le echo quand l'utilisateur ne renseigne pas au moins un des champs
 }
+
+
+// FAIRE DES FONCTIONS POUR LE MODEL QUI GERE LES ARTICLES !!!!!!
