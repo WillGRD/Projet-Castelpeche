@@ -16,7 +16,7 @@ if (!empty($usern) && !empty($passw)) {       //On vérifie que toute les variab
 
         //Si le champ est vide on reste sur la page connection pour remplir le champ correctement
     } else {
-        header('Location: ../templates/forms/connectAdmin.php');
+        header('Location: ../templates/forms/connectAdmin.php');   //Charge l'entéte de la page, redirection vers connectAdmin.php
     }
 } else {
     echo 'Il faut renseigner les champs';   //On affiche le echo quand l'utilisateur ne renseigne pas au moins un des champs

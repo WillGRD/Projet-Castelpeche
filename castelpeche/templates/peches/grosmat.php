@@ -9,7 +9,7 @@
     </div>
     <div class="carna">
         <article class="carnafull">
-            <img src="../../img/canne.webp" alt="">
+            <img src="../../img/canne.webp" alt="Une photo d'un lancé">
             <div class="h3p">
                 <h3>Nos Caisses à Pêche</h3>
                 <p>Découvrez notre superbe collection de caisses à pêche
@@ -21,7 +21,7 @@
             </div>
         </article>
         <article class="carnafull">
-            <img src="../../img/canne.webp" alt="">
+            <img src="../../img/canne.webp" alt="Une photo d'un lancé">
             <div class="h3p">
                 <h3>Nos accésoires Cannes</h3>
                 <p>Découvrez notre vaste sélection d'accessoires de canne à pêche,
@@ -31,7 +31,7 @@
             </div>
         </article>
         <article class="carnafull">
-            <img src="../../img/canne.webp" alt="">
+            <img src="../../img/canne.webp" alt="Une photo d'un lancé">
             <div class="h3p">
                 <h3>Nos accésoires Bateaux</h3>
                 <p>Découvrez notre sélection exceptionnelle de cannes et d'ensembles spécialement conçus pour la pêche au carnassier.
@@ -40,7 +40,7 @@
             </div>
         </article>
         <article class="carnafull">
-            <img src="../../img/canne.webp" alt="">
+            <img src="../../img/canne.webp" alt="Une photo d'un lancé">
             <div class="h3p">
                 <h3>Nos accésoires rangement</h3>
                 <p>Découvrez notre gamme d'accessoires pratiques pour le rangement de cannes à pêche et de leurres.

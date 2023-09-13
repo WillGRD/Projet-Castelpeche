@@ -9,7 +9,7 @@
 </div>
 <div class="carna">
     <article class="carnafull">
-        <img src="../../img/canne.webp" alt="">
+        <img src="../../img/canne.webp" alt="Photo d'un lancé">
         <div class="h3p">
             <h3>Nos Cannes</h3>
             <p>Nos cannes à pêche pour le coup sont spécialement conçues pour répondre aux besoins des pêcheurs au coup.
@@ -19,7 +19,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="../../img/amorce1.webp" alt="">
+        <img src="../../img/amorce1.webp" alt="Photo de paquets d'amorce de la marque rameau">
         <div class="h3p">
             <h3>Appâts & Amorces</h3>
             <p>Nous proposons des appâts frais et de qualité, adaptés aux différentes saisons et aux conditions de pêche.
@@ -33,7 +33,7 @@
         </div>
     </article>
     <article class="carnafull">
-        <img src="../../img/materielcarna.webp" alt="">
+        <img src="../../img/materielcarna.webp" alt="Photo d'une boite avec du petit matériel">
         <div class="h3p">
             <h3>Petit Matériel</h3>
             <p>Dans notre magasin, vous trouverez un vaste choix de petit matériel spécialement conçu pour la pêche au coup.
