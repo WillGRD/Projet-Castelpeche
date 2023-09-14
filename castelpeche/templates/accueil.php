@@ -5,7 +5,7 @@
 
 <main>
     <section class="indexdesc">
-        <img class=imgdesc src="../img/panneaucastel.webp" alt="photo du panneau castel pêche">
+        <img class=imgdesc src="/castelpeche/img/panneaucastel.webp" alt="photo du panneau castel pêche">
         <div>
             <h1 id="h1">Bienvenue dans la boutique Castel Pêche</h1>
         </div>
@@ -43,9 +43,9 @@
     <div id="carou">
         <h2>Nos Montages Maison pour le Carnassier vendu dans notre Magasin !</h2>
         <div id="slider">
-            <img id="showing" class="imgslider" src="../img/pêche4.webp" alt="">
-            <img class="imgslider" src="../img/pêche6.webp" alt="">
-            <img class="imgslider" src="../img/pêche8.webp" alt="">
+            <img id="showing" class="imgslider" src="/castelpeche/img/pêche4.webp" alt="">
+            <img class="imgslider" src="/castelpeche/img/pêche6.webp" alt="">
+            <img class="imgslider" src="/castelpeche/img/pêche8.webp" alt="">
             <div id="precedent" onclick="changeSlide(-1)">&lt;</div>
             <div id="suivant" onclick="changeSlide(1)">&gt;</div>
         </div>
@@ -53,7 +53,7 @@
     <div class=desc>
         <div class="imghome">
             <article>
-                <img src="../img/pêche7.webp" alt="Photo d'un brochet dans son habitat naturel">
+                <img src="/castelpeche/img/pêche7.webp" alt="Photo d'un brochet dans son habitat naturel">
                 <div class="h3p">
                     <h3> <a href="carnassier.php">Pêche aux Carnassiers</a></h3>
                     <p>Pour la pêche au carnassier, nous proposons un large choix de leurres,
@@ -63,7 +63,7 @@
                 </div>
             </article>
             <article>
-                <img src="../img/silure1.webp" alt="Photo d'un silure dans son habitat naturel">
+                <img src="/castelpeche/img/silure1.webp" alt="Photo d'un silure dans son habitat naturel">
                 <div class="h3p">
                     <h3><a href="silure.php">Pêche aux Silures</a></h3>
                     <p>Nous proposons une gamme d'équipements spécialement conçus pour la pêche au silure.
@@ -73,7 +73,7 @@
                 </div>
             </article>
             <article>
-                <img src="../img/carpe1.webp" alt="Photo d'une carpe dans son habitat naturel">
+                <img src="/castelpeche/img/carpe1.webp" alt="Photo d'une carpe dans son habitat naturel">
                 <div class="h3p">
                     <h3><a href="carpe.php">Pêche à la Carpe</a></h3>
                     <p>Nous proposons une vaste gamme d'équipements spécifiquement conçus pour la pêche à la carpe.
@@ -83,7 +83,7 @@
                 </div>
             </article>
             <article>
-                <img src="../img/pêche5.webp" alt="Photo d'un bouchon flotant sur l'eau">
+                <img src="/castelpeche/img/pêche5.webp" alt="Photo d'un bouchon flotant sur l'eau">
                 <div class="h3p">
                     <h3><a href="coup.php">Pêche au Coup</a></h3>
                     <p>Nous proposons une gamme complète d'équipements spécifiquement adaptés à la pêche au coup.
@@ -92,7 +92,7 @@
                 </div>
             </article>
             <article>
-                <img src="../img/truite1.webp" alt="Photo d'une truite attraper au bout de la canne d'un pêcheur">
+                <img src="/castelpeche/img/truite1.webp" alt="Photo d'une truite attraper au bout de la canne d'un pêcheur">
                 <div class="h3p">
                     <h3><a href="truite.php">Pêche à la Truite</a></h3>
                     <p>Nous proposons une gamme d'équipements spécialement conçus pour la pêche à la truite.
@@ -101,7 +101,7 @@
                 </div>
             </article>
             <article>
-                <img src="../img/feeder1.webp" alt="Photo d'un chevesne dans son habitat naturel">
+                <img src="/castelpeche/img/feeder1.webp" alt="Photo d'un chevesne dans son habitat naturel">
                 <div class="h3p">
                     <h3><a href="feeder.php">Pêche au Feeder</a></h3>
                     <p>Nous proposons une gamme d'équipements spécialement conçus pour la pêche à la truite.

@@ -5,6 +5,17 @@
 	margin: 0;
 	padding: 0;
 }
+
+.menu-items {
+	display: flex;
+	align-items: center;
+}
+
+form input.submit-btn.btn-submit:hover {
+	cursor: pointer !important;
+	text-decoration: underline !important;
+}
+
 /*Debut carousel*/
 
 #carou h2{
@@ -78,7 +89,7 @@
 /* Début Barre De Navigation*/
 
 ul li a {
-	padding: 40px 50px; /* Augmente la taille de la zone cliquable des liens de la nav */
+	padding: 40px 35px; /* Augmente la taille de la zone cliquable des liens de la nav */
 }
 
 .logofb:hover {

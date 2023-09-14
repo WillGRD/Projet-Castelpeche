@@ -1,5 +1,4 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/models/recupeArticles.php') ?>
 <div class="carna">
 <?php
 
@@ -12,8 +11,11 @@ foreach ($articles as $art) {
             <h3><?php echo $art["nom"]; ?></h3> <!-- Affiche le nom de l'article -->
             <?php if (!empty($_SESSION['user'])) {
             ?>
-                <a href="/castelpeche/templates/forms/updateForm.php?id=<?php echo $art["id"] ?>" class="update btn btn-success"> Modifier</a> <!-- Je récupére l'id de l'article pour le modifier -->
-                <button class="sup formbutton btn-warning btn" data-id="<?php echo $art["id"] ?>">Suprimer</button> <!-- Je récupére l'id de l'article pour le suprimer -->
+                <a href="/castelpeche/actualites/update/<?php echo $art["id"] ?>" class="update btn btn-success"> Modifier</a> <!-- Je récupére l'id de l'article pour le modifier -->
+                <form method="post" action="delete">
+                    <input type="hidden" name="article" value="<?php echo $art["id"] ?>"><!-- Je récupére l'id de l'article pour le suprimer -->
+                    <input type="submit" class="btn-submit submit-btn btn-warning btn" value="Supprimer">
+                </form>
             <?php } ?>
 
             <p><?php echo $art["description"]; ?></p> <!-- Affiche la description de l'article -->

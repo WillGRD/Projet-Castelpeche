@@ -3,7 +3,7 @@
 <div class="form">
     <h1>Formulaire d'ajout d'article Admin</h1>
 
-    <form action="../../models/ajoutArticle.php" method="post">
+    <form action="add" method="post">
         <div class="formart">
             <label for="titre">TITRE</label>
             <input class="input" type="text" id="titre" name="titre" required>

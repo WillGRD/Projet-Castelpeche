@@ -1,10 +1,17 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/models/dbconnect.php');
-// Préparation de la requête pour récupérer tous les articles
-$recupeArticle = $database->prepare("SELECT * FROM article");
+require("models/dbconnect.php");
 
-// Exécution de la requête
-$recupeArticle->execute();
+function getArticles() {
+    global $database;
 
-// Récupération des résultats de la requête dans un tableau
-$articles = $recupeArticle->fetchAll();
+    // Préparation de la requête pour récupérer tous les articles
+    $recupeArticle = $database->prepare("SELECT * FROM article");
+
+    // Exécution de la requête
+    $recupeArticle->execute();
+
+    // Récupération des résultats de la requête dans un tableau
+    $listeArticles = $recupeArticle->fetchAll();
+
+    return $listeArticles;
+}

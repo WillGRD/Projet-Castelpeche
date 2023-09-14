@@ -1,42 +1,23 @@
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php');
-require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/models/dbconnect.php');
-
-
-$idArticle = $_GET["id"];
-
-
-$article = $database->prepare("SELECT * FROM `article` WHERE id = :art");
-$article->bindParam('art', $idArticle);
-$article->execute();
-
-$results = $article->fetchAll(PDO::FETCH_ASSOC);
-
+require_once("templates/header.php");
 ?>
 
 <div class="form">
     <h1>Modification d'article</h1>
-    <form action="/castelpeche/models/updateArticle.php" method="post">
+    <form method="post">
         <input type="hidden" name="id" value="<?php echo $idArticle ?>">
-        <?php
-        foreach ($results as $articleCourant) { ?>
-            <div class="formart">
-                <label for="titre">TITRE</label>
-                <input class="input" type="text" id="titre" name="titre" required value="<?php echo $articleCourant["nom"] ?>">
-            </div>
-            <div class="formart">
-                <label for="photo">PHOTO</label>
-                <input class="input" type="photo" id="photo" name="photo" required value="<?php echo $articleCourant["image"] ?>">
-            </div>
-            <div class="formart" id="formdesc">
-                <label for="description">DESCRIPTION</label>
-                <textarea class="input" rows="5" type="description" id="description" name="description" required value="<?php echo $articleCourant["description"] ?>"></textarea>
-            </div>
-        <?php } ?>
-
-
-
-
+        <div class="formart">
+            <label for="titre">TITRE</label>
+            <input class="input" type="text" id="titre" name="titre" required value="<?php echo $results["nom"] ?>">
+        </div>
+        <div class="formart">
+            <label for="photo">PHOTO</label>
+            <input class="input" type="photo" id="photo" name="photo" required value="<?php echo $results["image"] ?>">
+        </div>
+        <div class="formart" id="formdesc">
+            <label for="description">DESCRIPTION</label>
+            <textarea class="input" rows="5" type="description" id="description" name="description" required><?php echo $results["description"] ?></textarea>
+        </div>
         <input class="formbutton" type="submit" value="Modifier l'article">
     </form>
 </div>
@@ -45,4 +26,4 @@ $results = $article->fetchAll(PDO::FETCH_ASSOC);
 
 
 <?php
-require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php');
+require_once("templates/footer.php");
