@@ -1,11 +1,11 @@
 <?php
 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php');
+require_once("templates/header.php");
 ?>
 
 <div class="form">
     <h1>Connection Admin</h1>
-    <form  action="../../models/connectionAdmin.php" method="post">
+    <form action="connexion" method="post">
     
         <div class="formart">
             <label for="username">Nom d'utilisateur</label>
@@ -21,5 +21,5 @@ require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php');
 </div>
 
 <?php 
-require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php');
+require_once("templates/footer.php");
 ?>

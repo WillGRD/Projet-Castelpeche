@@ -1,3 +1,21 @@
 <?php
-    // On redirige vers l'accueil
-    header("Location: templates/accueil.php");
+    define("RACINE", str_replace("index.php", "", $_SERVER["SCRIPT_FILENAME"]));
+
+    $parametres = explode("/", $_GET["param"]);
+
+    if($parametres[0] !== "") {
+        $controller = ucfirst($parametres[0]);
+        $action = isset($parametres[1]) ? $parametres[1] : 'index';
+        $args = isset($parametres[2]) ? $parametres[2] : null;
+
+        require_once(RACINE.'controller/'.$controller.'.php');
+        if($args) {
+            $action($args);
+        } else {
+            $action();
+        }
+        
+    } else {
+        require_once(RACINE.'controller/Accueil.php');
+        index();
+    }

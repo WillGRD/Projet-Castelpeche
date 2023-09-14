@@ -1,4 +1,6 @@
-<?php session_start(); ?>
+<?php
+    session_start();
+?>
 
 <!DOCTYPE html>
 <html lang="fr">
@@ -21,27 +23,27 @@
             <img class="logo" src="/castelpeche/img/Logocastel.jpg" alt="Logo castel pêche">
             <div>
                 <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
-                <ul>
-                    <li><a href="/castelpeche/index.php">Accueil</a></li>
+                <ul class="menu-items">
+                    <li><a href="/castelpeche">Accueil</a></li>
                     <li><a class='dropdown-arrow' href='#'>Types de Pêches</a>
                         <ul class='sub-menus'>
-                            <li><a href="/castelpeche/templates/peches/carnassier.php">Pêche du Carnassier</a></li>
-                            <li><a href="/castelpeche/templates/peches/silure.php">Pêche du Silure</a></li>
-                            <li><a href="/castelpeche/templates/peches/carpe.php">Pêche de la Carpe</a></li>
-                            <li><a href="/castelpeche/templates/peches/coup.php">Pêche au coup</a></li>
-                            <li><a href="/castelpeche/templates/peches/truite.php">Pêche à la truite</a></li>
-                            <li><a href="/castelpeche/templates/peches/feeder.php">Pêche au Feeder</a></li>
-                            <li><a href="/castelpeche/templates/peches/grosmat.php">Electronique & Gros matériel</a></li>
+                            <li><a href="/castelpeche/peche/show/carnassier">Pêche du Carnassier</a></li>
+                            <li><a href="/castelpeche/peche/show/silure">Pêche du Silure</a></li>
+                            <li><a href="/castelpeche/peche/show/carpe">Pêche de la Carpe</a></li>
+                            <li><a href="/castelpeche/peche/show/coup">Pêche au coup</a></li>
+                            <li><a href="/castelpeche/peche/show/truite">Pêche à la truite</a></li>
+                            <li><a href="/castelpeche/peche/show/feeder">Pêche au Feeder</a></li>
+                            <li><a href="/castelpeche/peche/show/grosmat">Electronique & Gros matériel</a></li>
                         </ul>
                     </li>
-                    <li><a href="/castelpeche/templates/actualite.php">Actualités</a></li>
+                    <li><a href="/castelpeche/actualites/show">Actualités</a></li>
                     <?php if (!empty($_SESSION['user'])) {
-                    ?> <li><a href="/castelpeche/models/deconnexion.php">Deconnexion</a></li>
+                    ?> <li><a href="/castelpeche/session/deconnexion">Deconnexion</a></li>
                     <?php } else {
-                    ?> <li><a href="/castelpeche/templates/forms/connectAdmin.php">Connexion</a></li>
+                    ?> <li><a href="/castelpeche/session/connexion">Connexion</a></li>
                     <?php } ?>
                     <?php if (!empty($_SESSION['user'])) {
-                    ?> <li><a href="/castelpeche/templates/forms/formulaireAjout.php">Ajout article</a></li>
+                    ?> <li><a href="/castelpeche/actualites/add">Ajout article</a></li>
                     <?php } ?>
                 </ul>
             </div>
