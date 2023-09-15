@@ -1,9 +1,8 @@
 <?php
 
 require("models/dbconnect.php");
-
+require_once("models/articleModel.php");
 function show() {
-    require_once("models/recupeArticles.php");
     $articles = getArticles();
     require("templates/actualite.php");
 }
@@ -16,7 +15,6 @@ function add() {
         $photo = $_POST["photo"];        //On récupére les variable envoyer du formulaire en méthode POST
         $desc = $_POST["description"];   //On récupére les variable envoyer du formulaire en méthode POST
         if (!empty($name) && !empty($photo) && !empty($desc)) {
-            require_once("models/ajoutArticle.php");
             addArticle($name, $photo, $desc);
         }
     }
@@ -25,13 +23,11 @@ function add() {
 function delete() {
     if(!empty($_POST["article"])) {
         $idArticle = $_POST["article"];
-        require_once("models/deleteArticle.php");
         supprimerArticle($idArticle);
     }
 }
 
 function update($article) {
-    require_once("models/updateArticle.php");
     $idArticle = intval($article);
     if(empty($_POST)) {
         $results = getArticle($idArticle);
