@@ -29,9 +29,10 @@ function add() {
 }
 
 function delete() {
-    if(!empty($_POST["article"])) {
+    if(!empty($_POST["article"]) && !empty($_POST["photo"])) {
         $idArticle = $_POST["article"];
-        supprimerArticle($idArticle);
+        $photoArticle = $_POST["photo"];
+        supprimerArticle($idArticle, $photoArticle);
     }
 }
 

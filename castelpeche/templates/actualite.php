@@ -15,6 +15,7 @@ foreach ($articles as $art) {
             ?>
                 <a href="/castelpeche/actualites/update/<?php echo $art["id"] ?>" class="update btn btn-success"> Modifier</a> <!-- Je récupére l'id de l'article pour le modifier -->
                 <form method="post" action="delete">
+                    <input type="hidden" name="photo" value="<?php echo $art["image"]; ?>">
                     <input type="hidden" name="article" value="<?php echo $art["id"] ?>"><!-- Je récupére l'id de l'article pour le suprimer -->
                     <input type="submit" class="btn-submit submit-btn btn-warning btn" value="Supprimer">
                 </form>

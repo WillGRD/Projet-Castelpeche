@@ -21,10 +21,11 @@ function addArticle($titre, $image, $description) {
     }
 }
 
-function supprimerArticle($idArticle) {
+function supprimerArticle($idArticle, $photoArticle) {
     global $database;
     $article = intval($idArticle);
-
+    $repertoireUploads = "uploads/";
+    unlink($repertoireUploads.$photoArticle); // On supprime la photo du serveur
     $requeteSupresion = $database->prepare("DELETE FROM article WHERE id=:id");  // On prepare la requete
     $requeteSupresion->bindParam('id', $article, PDO::PARAM_INT);   // Requête préparé, injecté dans la requete l'identifiant récupéré par POST afin de sécuriser la requête.
     $requeteSupresion->execute();   // On execute la requete
