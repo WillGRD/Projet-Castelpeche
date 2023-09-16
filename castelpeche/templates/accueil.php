@@ -65,7 +65,7 @@
             <article>
                 <img src="/castelpeche/img/silure1.webp" alt="Photo d'un silure dans son habitat naturel">
                 <div class="h3p">
-                    <h3><a href="silure.php/castelpeche/peche/show/silure">Pêche aux Silures</a></h3>
+                    <h3><a href="/castelpeche/peche/show/silure">Pêche aux Silures</a></h3>
                     <p>Nous proposons une gamme d'équipements spécialement conçus pour la pêche au silure.
                         Les cannes à pêche dédiées à cette pratique sont robustes et puissantes,
                         capables de résister aux combats intenses avec ces poissons massifs.
