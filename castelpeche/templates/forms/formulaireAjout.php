@@ -11,8 +11,7 @@
 
         <div class="formart">
             <label for="photo">PHOTO</label>
-            <!-- <input class="input" type="photo" id="photo" name="photo" required> -->
-            <input type="file" name="photo" required>
+            <input class="btn" type="file" name="photo" required>
         </div>
 
         <div class="formart">
