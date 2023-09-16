@@ -55,7 +55,7 @@
             <article>
                 <img src="/castelpeche/img/pêche7.webp" alt="Photo d'un brochet dans son habitat naturel">
                 <div class="h3p">
-                    <h3> <a href="carnassier.php">Pêche aux Carnassiers</a></h3>
+                    <h3> <a href="/castelpeche/peche/show/carnassier">Pêche aux Carnassiers</a></h3>
                     <p>Pour la pêche au carnassier, nous proposons un large choix de leurres,
                         tels que des leurres souples, des crankbaits, des spinnerbaits et des jerkbaits,
                         qui imitent les proies naturelles des carnassiers. Ces leurres sont disponibles dans différentes tailles,
@@ -65,7 +65,7 @@
             <article>
                 <img src="/castelpeche/img/silure1.webp" alt="Photo d'un silure dans son habitat naturel">
                 <div class="h3p">
-                    <h3><a href="silure.php">Pêche aux Silures</a></h3>
+                    <h3><a href="silure.php/castelpeche/peche/show/silure">Pêche aux Silures</a></h3>
                     <p>Nous proposons une gamme d'équipements spécialement conçus pour la pêche au silure.
                         Les cannes à pêche dédiées à cette pratique sont robustes et puissantes,
                         capables de résister aux combats intenses avec ces poissons massifs.
@@ -75,7 +75,7 @@
             <article>
                 <img src="/castelpeche/img/carpe1.webp" alt="Photo d'une carpe dans son habitat naturel">
                 <div class="h3p">
-                    <h3><a href="carpe.php">Pêche à la Carpe</a></h3>
+                    <h3><a href="/castelpeche/peche/show/carpe">Pêche à la Carpe</a></h3>
                     <p>Nous proposons une vaste gamme d'équipements spécifiquement conçus pour la pêche à la carpe.
                         Les cannes à pêche pour la carpe sont généralement robustes et puissantes,
                         capables de lancer des montages lourds et de faire face à de longues distances.
@@ -85,7 +85,7 @@
             <article>
                 <img src="/castelpeche/img/pêche5.webp" alt="Photo d'un bouchon flotant sur l'eau">
                 <div class="h3p">
-                    <h3><a href="coup.php">Pêche au Coup</a></h3>
+                    <h3><a href="/castelpeche/peche/show/coup">Pêche au Coup</a></h3>
                     <p>Nous proposons une gamme complète d'équipements spécifiquement adaptés à la pêche au coup.
                         Les cannes à pêche au coup sont fines, légères et sensibles,
                         conçues pour être maniées avec précision et pour détecter les touches subtiles des poissons.</p>
@@ -94,7 +94,7 @@
             <article>
                 <img src="/castelpeche/img/truite1.webp" alt="Photo d'une truite attraper au bout de la canne d'un pêcheur">
                 <div class="h3p">
-                    <h3><a href="truite.php">Pêche à la Truite</a></h3>
+                    <h3><a href="/castelpeche/peche/show/truite">Pêche à la Truite</a></h3>
                     <p>Nous proposons une gamme d'équipements spécialement conçus pour la pêche à la truite.
                         Les cannes à pêche pour la truite sont généralement légères,
                         sensibles et précises, permettant aux pêcheurs de lancer avec précision et de détecter les moindres touches des truites.</p>
@@ -103,7 +103,7 @@
             <article>
                 <img src="/castelpeche/img/feeder1.webp" alt="Photo d'un chevesne dans son habitat naturel">
                 <div class="h3p">
-                    <h3><a href="feeder.php">Pêche au Feeder</a></h3>
+                    <h3><a href="/castelpeche/peche/show/feeder">Pêche au Feeder</a></h3>
                     <p>Nous proposons une gamme d'équipements spécialement conçus pour la pêche à la truite.
                         Les cannes à pêche pour la truite sont généralement légères,
                         sensibles et précises, permettant aux pêcheurs de lancer avec précision et de détecter les moindres touches des truites.</p>
