@@ -16,6 +16,24 @@ form input.submit-btn.btn-submit:hover {
 	text-decoration: underline !important;
 }
 
+/* Css pour mon chevron retour haut de page */
+
+.visible {
+    position: fixed;
+    padding: 1rem;
+    background-color: green;
+    border-radius: 100%;
+    color: white;
+    bottom: 2rem;
+    right: 2rem;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+
+
+/* Css pour mon chevron retour haut de page */
+
 /*Debut carousel*/
 
 #carou h2{
