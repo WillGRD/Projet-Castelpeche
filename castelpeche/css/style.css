@@ -11,6 +11,10 @@
 	align-items: center;
 }
 
+.hidden {
+	display: none;
+}
+
 form input.submit-btn.btn-submit:hover {
 	cursor: pointer !important;
 	text-decoration: underline !important;
