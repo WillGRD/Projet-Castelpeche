@@ -1,4 +1,4 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
+<?php require_once("templates/header.php"); ?>
 
 <div>
     <div class="typep">
@@ -47,4 +47,4 @@
     </div>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php') ?>
+<?php require_once("templates/footer.php"); ?>

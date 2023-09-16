@@ -1,9 +1,9 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
+<?php require_once("templates/header.php"); ?>
 
 <div class="form">
     <h1>Formulaire d'ajout d'article Admin</h1>
 
-    <form action="add" method="post">
+    <form action="add" method="post" enctype="multipart/form-data">
         <div class="formart">
             <label for="titre">TITRE</label>
             <input class="input" type="text" id="titre" name="titre" required>
@@ -11,7 +11,7 @@
 
         <div class="formart">
             <label for="photo">PHOTO</label>
-            <input class="input" type="photo" id="photo" name="photo" required>
+            <input class="btn" type="file" name="photo" required>
         </div>
 
         <div class="formart">
@@ -23,4 +23,4 @@
     </form>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php') ?>
+<?php require_once("templates/footer.php"); ?>
