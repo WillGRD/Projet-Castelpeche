@@ -1,4 +1,6 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
+<?php
+    require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php');
+?>
 <div class="carna">
 <?php
 
@@ -6,7 +8,7 @@
 foreach ($articles as $art) {
 ?>
     <article class="carnafull">
-        <img src=<?php echo $art["image"]; ?> alt="Une image ajouter par l'administrateur">
+        <img src="/castelpeche/uploads/<?php echo $art["image"]; ?>" alt="Une image ajouter par l'administrateur">
         <div class="h3p">
             <h3><?php echo $art["nom"]; ?></h3> <!-- Affiche le nom de l'article -->
             <?php if (!empty($_SESSION['user'])) {

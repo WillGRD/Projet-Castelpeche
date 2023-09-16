@@ -8,14 +8,22 @@ function show() {
 }
 
 function add() {
-    if(empty($_POST)) {
+    if(empty($_POST) && empty($_FILES)) {
         require("templates/forms/formulaireAjout.php");
     } else {
+        $repertoireUploads = "uploads/";
         $name = $_POST["titre"];         //On récupére les variable envoyer du formulaire en méthode POST
-        $photo = $_POST["photo"];        //On récupére les variable envoyer du formulaire en méthode POST
         $desc = $_POST["description"];   //On récupére les variable envoyer du formulaire en méthode POST
-        if (!empty($name) && !empty($photo) && !empty($desc)) {
-            addArticle($name, $photo, $desc);
+        $nomFichier = basename($_FILES["photo"]["name"]);
+        $repertoireFichierCible = $repertoireUploads . $nomFichier; 
+        $extensionFichier = pathinfo($repertoireFichierCible,PATHINFO_EXTENSION);
+        // On autorise que certains types d'images 
+        $extensionsAutorisees = array('jpg','png','jpeg');
+        if(in_array($extensionFichier, $extensionsAutorisees)) {
+            move_uploaded_file($_FILES["photo"]["tmp_name"], $repertoireFichierCible);
+            if (!empty($name) && !empty($nomFichier) && !empty($desc)) {
+                addArticle($name, $nomFichier, $desc);
+            }
         }
     }
 }
