@@ -1,4 +1,4 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php') ?>
+<?php require_once("templates/header.php"); ?>
 
 <div class="typep">
     <h1>La pêche aux Silures</h1>
@@ -46,4 +46,4 @@
     </article>
 </div>
 
-<?php require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php') ?>
+<?php require_once("templates/footer.php"); ?>

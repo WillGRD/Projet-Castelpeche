@@ -1,5 +1,5 @@
 <?php
-    require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/header.php');
+    require_once("templates/header.php");;
 ?>
 <div class="carna">
 <?php
@@ -30,5 +30,5 @@ foreach ($articles as $art) {
 </div>
 <?php
 // Inclusion du fichier footer.php situé dans le répertoire DOCUMENT_ROOT/php/
-require_once($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/footer.php')
+require_once("templates/footer.php");
 ?>
