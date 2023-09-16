@@ -15,7 +15,7 @@ function add() {
         $name = $_POST["titre"];         //On récupére les variable envoyer du formulaire en méthode POST
         $desc = $_POST["description"];   //On récupére les variable envoyer du formulaire en méthode POST
         $nomFichier = basename($_FILES["photo"]["name"]);
-        $repertoireFichierCible = $repertoireUploads . $nomFichier; 
+        $repertoireFichierCible = $repertoireUploads . $nomFichier;
         $extensionFichier = pathinfo($repertoireFichierCible,PATHINFO_EXTENSION);
         // On autorise que certains types d'images 
         $extensionsAutorisees = array('jpg','png','jpeg');

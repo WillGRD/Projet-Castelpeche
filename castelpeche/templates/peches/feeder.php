@@ -17,7 +17,7 @@
             </div>
         </article>
         <article class="carnafull">
-            <img src="../../img/pêche6.webp" alt="Photo de deux boite de leurres">
+            <img src="../../img/pêche6.webp" alt="Photo de deux boites de leurres">
             <div class="h3p">
                 <h3>Nos Leurres & Cuilléres</h3>
                 <p>Nos leurres et cuilléres sont conçus avec une attention minutieuse aux détails pour imiter parfaitement les proies préférées des carnassiers.
