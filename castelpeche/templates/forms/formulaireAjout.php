@@ -16,7 +16,7 @@
 
         <div class="formart">
             <label for="description">DESCRIPTION</label>
-            <textarea class="input" rows="5" type="description" id="description" name="description" required></textarea>
+            <textarea maxlength="250" class="input" rows="5" type="description" id="description" name="description" required></textarea>
         </div>
 
         <input class="formbutton" type="submit" value="Ajouter l'article">
