@@ -2,9 +2,9 @@
 
 <div>
     <div class="typep">
-        <h1>La pêche aux Carnassiers</h1>
+        <h1>La pêche du Carnassiers</h1>
         <?php include($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/rejoignez_nous.php') ?>
-        <p class="descp">La pêche au carnassier est une forme de pêche spécialisée qui vise des espèces de poissons prédateurs tels que le brochet,
+        <p class="descp">La pêche du carnassier est une forme de pêche spécialisée qui vise des espèces de poissons prédateurs tels que le brochet,
             le black-bass, le sandre et le silure. Elle est appréciée pour son côté technique et excitant,
             car elle nécessite des techniques de pêche spécifiques et un équipement adapté.</p>
     </div>
@@ -30,7 +30,7 @@
         <article class="carnafull">
             <img src="../../img/canne.webp" alt="Photo d'un lancé">
             <div class="h3p">
-                <h3>Nos Cannes & Enssembles</h3>
+                <h3>Nos Cannes & Ensembles</h3>
                 <p>Découvrez notre sélection exceptionnelle de cannes et d'ensembles spécialement conçus pour la pêche au carnassier.
                     Que vous soyez un pêcheur novice ou expérimenté,
                     nos produits de qualité supérieure sauront vous offrir des performances optimales et des moments de pêche inoubliables.</p>

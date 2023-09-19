@@ -1,7 +1,7 @@
 <?php require_once("templates/header.php"); ?>
 
 <div class="typep">
-    <h1>La pêche à la Carpe</h1>
+    <h1>La pêche de la Carpe</h1>
     <?php include($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/rejoignez_nous.php') ?>
     <p>La pêche à la carpe est une discipline très populaire parmi les pêcheurs passionnés.
         Elle met l'accent sur la patience, la stratégie et la recherche d'un poisson réputé pour sa taille,
@@ -31,7 +31,7 @@
     <article class="carnafull">
         <img src="../../img/canne.webp" alt="Photo d'un lancé">
         <div class="h3p">
-            <h3>Nos Cannes & Enssembles</h3>
+            <h3>Nos Cannes & Ensembles</h3>
             <p>Découvrez notre sélection exceptionnelle de cannes et d'ensembles spécialement conçus pour la pêche au carnassier.
                 Que vous soyez un pêcheur novice ou expérimenté,
                 nos produits de qualité supérieure sauront vous offrir des performances optimales et des moments de pêche inoubliables.

@@ -29,7 +29,7 @@
         <article class="carnafull">
             <img src="../../img/canne.webp" alt="Photo d'un lancé">
             <div class="h3p">
-                <h3>Nos Cannes & Enssembles</h3>
+                <h3>Nos Cannes & Ensembles</h3>
                 <p>Découvrez notre sélection exceptionnelle de cannes et d'ensembles spécialement conçus pour la pêche au carnassier.
                     Que vous soyez un pêcheur novice ou expérimenté,
                     nos produits de qualité supérieure sauront vous offrir des performances optimales et des moments de pêche inoubliables.</p>
