@@ -1,7 +1,7 @@
 <?php require_once("templates/header.php"); ?>
 
 <div class="typep">
-    <h1>La pêche à la Truite</h1>
+    <h1>La pêche de la Truite</h1>
     <p>La pêche à la truite est une activité populaire et appréciée par de nombreux pêcheurs.
         Elle se pratique principalement dans les rivières, les ruisseaux et les lacs où les truites sont abondantes.
         La truite est un poisson agile et méfiant, ce qui en fait une proie passionnante à cibler.</p>
@@ -31,7 +31,7 @@
     <article class="carnafull">
         <img src="../../img/canne.webp" alt="Photo d'un lancé">
         <div class="h3p">
-            <h3>Nos Cannes & Enssembles</h3>
+            <h3>Nos Cannes & Ensembles</h3>
             <p>Dans notre magasin, vous trouverez une vaste sélection de cannes et d'ensembles de pêche adaptés à tous les niveaux et toutes les techniques.
                 Fabriquées avec des matériaux de haute qualité tels que le carbone et la fibre de verre, nos cannes offrent légèreté, résistance et réactivité.
                 Que vous pratiquiez la pêche au coup, la pêche à la mouche, la pêche au lancer léger ou la pêche aux leurres, nous avons la canne idéale pour vous.

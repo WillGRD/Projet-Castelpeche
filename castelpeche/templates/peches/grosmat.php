@@ -34,9 +34,11 @@
             <img src="../../img/canne.webp" alt="Une photo d'un lancé">
             <div class="h3p">
                 <h3>Nos accésoires Bateaux</h3>
-                <p>Découvrez notre sélection exceptionnelle de cannes et d'ensembles spécialement conçus pour la pêche au carnassier.
-                    Que vous soyez un pêcheur novice ou expérimenté,
-                    nos produits de qualité supérieure sauront vous offrir des performances optimales et des moments de pêche inoubliables.</p>
+                <p>Venez découvrir notre sélection de batteries de bateau et de petits moteurs électriques.
+                    Ces équipements sont essentiels pour maximiser votre expérience de pêche.
+                    Nos batteries de bateau de haute qualité vous garantissent une source d'énergie fiable pour propulser votre embarcation,
+                    tandis que nos petits moteurs électriques vous permettent de naviguer silencieusement et avec précision sur l'eau,
+                    idéal pour ne pas effrayer les poissons.</p>
             </div>
         </article>
         <article class="carnafull">

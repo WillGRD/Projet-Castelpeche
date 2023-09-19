@@ -31,7 +31,7 @@
                             <li><a href="/castelpeche/peche/show/silure">Pêche du Silure</a></li>
                             <li><a href="/castelpeche/peche/show/carpe">Pêche de la Carpe</a></li>
                             <li><a href="/castelpeche/peche/show/coup">Pêche au coup</a></li>
-                            <li><a href="/castelpeche/peche/show/truite">Pêche à la truite</a></li>
+                            <li><a href="/castelpeche/peche/show/truite">Pêche de la truite</a></li>
                             <li><a href="/castelpeche/peche/show/feeder">Pêche au Feeder</a></li>
                             <li><a href="/castelpeche/peche/show/grosmat">Electronique & Gros matériel</a></li>
                         </ul>
