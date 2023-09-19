@@ -3,7 +3,7 @@
 <div>
     <div class="typep">
         <h1>La pêche du Carnassiers</h1>
-        <?php include($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/rejoignez_nous.php') ?>
+        <?php include($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/rejoignez_nous_carnassier.php') ?>
         <p class="descp">La pêche du carnassier est une forme de pêche spécialisée qui vise des espèces de poissons prédateurs tels que le brochet,
             le black-bass, le sandre et le silure. Elle est appréciée pour son côté technique et excitant,
             car elle nécessite des techniques de pêche spécifiques et un équipement adapté.</p>
