@@ -2,7 +2,7 @@
 
 <div class="typep">
     <h1>La pêche au Coup</h1>
-    <?php include($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/rejoignez_nous.php') ?>
+    <?php include($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/rejoignez_nous_feeder.php') ?>
     <p>La pêche au coup est une méthode de pêche traditionnelle et polyvalente,
         appréciée par de nombreux pêcheurs. Elle se pratique généralement dans des plans d'eau calmes tels que les étangs,
         les lacs et les rivières, en utilisant une canne à pêche spécialement conçue pour cette technique.</p>

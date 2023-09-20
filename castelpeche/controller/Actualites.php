@@ -9,7 +9,9 @@ function show() {
 
 function add() {
     if(empty($_POST) && empty($_FILES)) {
-        require("templates/forms/formulaireAjout.php");
+        require("templates/forms/formulaireAjout.php");    
+    } elseif(trim($_POST['titre']) === '' && trim($_POST['description']) === '') {
+        echo 'Les champs ne peuvent pas être vides';
     } else {
         $repertoireUploads = "uploads/";
         $name = $_POST["titre"];         //On récupére les variable envoyer du formulaire en méthode POST
@@ -29,7 +31,7 @@ function add() {
 }
 
 function delete() {
-    if(!empty($_POST["article"]) && !empty($_POST["photo"])) {
+    if(!empty($_POST["article"]) && !empty($_POST["photo"]) && trim($_POST['article']) !== '' && trim($_POST['photo']) !== '') {
         $idArticle = $_POST["article"];
         $photoArticle = $_POST["photo"];
         supprimerArticle($idArticle, $photoArticle);
@@ -41,6 +43,8 @@ function update($article) {
     if(empty($_POST)) {
         $results = getArticle($idArticle);
         require("templates/forms/updateForm.php");
+    } elseif(trim($_POST['titre']) === '' && trim($_POST['photo']) === '' && trim($_POST['description']) === '' && trim($_POST['id']) === '') {
+        echo 'Les champs ne peuvent pas être vides';
     } else {
         $titre = $_POST["titre"];     //On récupére les variable envoyer du formulaire en méthode POST
         $photo = $_POST["photo"];     //On récupére les variable envoyer du formulaire en méthode POST
