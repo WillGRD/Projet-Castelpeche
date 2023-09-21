@@ -1,7 +1,7 @@
 <?php require_once("templates/header.php"); ?>
 
 <div class="typep">
-    <h1>La pêche du Silures</h1>
+    <h1>La pêche du Silure</h1>
     <p>La pêche au silure est une forme de pêche spécialisée qui cible spécifiquement le silure,
         un poisson prédateur d'eau douce connu pour sa taille impressionnante et sa combativité.
         C'est une pratique populaire parmi les pêcheurs qui recherchent des défis excitants et la possibilité de capturer un poisson de grande taille.</p>

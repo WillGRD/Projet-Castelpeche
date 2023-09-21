@@ -333,6 +333,7 @@ article h3 {
 	text-decoration: none;        /* Pas de décoration de texte */
 	padding-bottom: .3125rem;     /* Rembourrage en bas de .3125rem */
 	text-align: center;
+	color: black;
 }
 
 .typep {

@@ -19,7 +19,7 @@
         <article class="carnafull">
             <img src="../../img/pêche6.webp" alt="Photo de deux boites de leurres">
             <div class="h3p">
-                <h3>Nos Leurres & Cuilléres</h3>
+                <h3>Nos Leurres & Cuillères</h3>
                 <p>Nos leurres et cuilléres sont conçus avec une attention minutieuse aux détails pour imiter parfaitement les proies préférées des carnassiers.
                     Leur action de nage réaliste et leurs finitions attractives les rendent irrésistibles aux yeux des prédateurs aquatiques.
                     Que vous cherchiez à cibler les brochets, les achigans, les perches ou autres,

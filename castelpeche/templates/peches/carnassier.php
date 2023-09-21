@@ -2,7 +2,7 @@
 
 <div>
     <div class="typep">
-        <h1>La pêche du Carnassiers</h1>
+        <h1>La pêche du Carnassier</h1>
         <?php include($_SERVER['DOCUMENT_ROOT'] . '/castelpeche/templates/rejoignez_nous_carnassier.php') ?>
         <p class="descp">La pêche du carnassier est une forme de pêche spécialisée qui vise des espèces de poissons prédateurs tels que le brochet,
             le black-bass, le sandre et le silure. Elle est appréciée pour son côté technique et excitant,
@@ -20,7 +20,7 @@
         <article class="carnafull">
             <img src="../../img/pêche6.webp" alt="Photo de deux boites de leurres remplis">
             <div class="h3p">
-                <h3>Nos Leurres & Cuilléres</h3>
+                <h3>Nos Leurres & Cuillères</h3>
                 <p>Nos leurres et cuilléres sont conçus avec une attention minutieuse aux détails pour imiter parfaitement les proies préférées des carnassiers.
                     Leur action de nage réaliste et leurs finitions attractives les rendent irrésistibles aux yeux des prédateurs aquatiques.
                     Que vous cherchiez à cibler les brochets, les achigans, les perches ou autres,

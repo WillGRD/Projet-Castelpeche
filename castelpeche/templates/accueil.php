@@ -7,7 +7,7 @@
     <section class="indexdesc">
         <img class=imgdesc src="/castelpeche/img/panneaucastel.webp" alt="photo du panneau castel pêche">
         <div>
-            <h1 id="h1">Bienvenue dans la boutique Castel Pêche</h1>
+            <h1 id="h1">Bienvenue dans la boutique Castel Pêche <br> (Site Web en Construction)</h1>
         </div>
         <div class=texthome>
             <p>
@@ -55,7 +55,7 @@
             <article>
                 <img src="/castelpeche/img/pêche7.webp" alt="Photo d'un brochet dans son habitat naturel">
                 <div class="h3p">
-                    <h3> <a href="/castelpeche/peche/show/carnassier">Pêche du Carnassiers</a></h3>
+                    <h3> <a href="/castelpeche/peche/show/carnassier">Pêche du Carnassier</a></h3>
                     <p>Pour la pêche du carnassier, nous proposons un large choix de leurres,
                         tels que des leurres souples, des crankbaits, des spinnerbaits et des jerkbaits,
                         qui imitent les proies naturelles des carnassiers. Ces leurres sont disponibles dans différentes tailles,
@@ -65,7 +65,7 @@
             <article>
                 <img src="/castelpeche/img/silure1.webp" alt="Photo d'un silure dans son habitat naturel">
                 <div class="h3p">
-                    <h3><a href="/castelpeche/peche/show/silure">Pêche du Silures</a></h3>
+                    <h3><a href="/castelpeche/peche/show/silure">Pêche du Silure</a></h3>
                     <p>Nous proposons une gamme d'équipements spécialement conçus pour la pêche au silure.
                         Les cannes à pêche dédiées à cette pratique sont robustes et puissantes,
                         capables de résister aux combats intenses avec ces poissons massifs.
