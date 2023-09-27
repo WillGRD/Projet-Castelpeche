@@ -2,10 +2,8 @@
 
 <div>
     <div class="typep">
-        <h1>Electronique & Gros matériel</h1>
-        <p class="descp">La pêche au carnassier est une forme de pêche spécialisée qui vise des espèces de poissons prédateurs tels que le brochet,
-            le black-bass, le sandre et le silure. Elle est appréciée pour son côté technique et excitant,
-            car elle nécessite des techniques de pêche spécifiques et un équipement adapté.</p>
+        <h1>Electronique & Gros matériel (Page en Construction)</h1>
+        <p class="descp">Pour les passionnés de pêche, disposer des bons équipements est essentiel. Cela garantit une expérience de pêche plus efficace, agréable et sûre. Les outils appropriés, qu'ils soient utilisés pour la pêche en bateau ou du rivage, sont des compagnons inestimables pour réussir dans ce loisir.</p>
     </div>
     <div class="carna">
         <article class="carnafull">
