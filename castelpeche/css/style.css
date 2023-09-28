@@ -186,8 +186,8 @@ ul li a {
 
 #menu label:before {
 	font-size: 70px;                       /* Taille de police de 1.6em */
-	content: "\2261";                       /* Affiche le symbole du menu hamburger (\2261) avant le contenu de l'élément */
-	margin-left: .3125rem;                   /* Marge à gauche de 1.25rem */
+	content: "\2261";                      /* Affiche le symbole du menu burger (\2261) avant le contenu de l'élément */
+	margin-left: .3125rem;                 /* Marge à gauche de 1.25rem */
 }
 
 #menu ul.sub-menus {
@@ -368,7 +368,6 @@ article h3 {
 	margin-right: 5rem;             /* Marge à droite de 5rem */
 	margin-top: 3.125rem;           /* Marge en haut de 3.125rem */
 	padding: 1.25rem;               /* Rembourrage de 1.25rem sur tous les côtés */
-	           /* Rembourrage à droite de 70px */
 	margin-bottom: 100px;           /* Marge en bas de 100px */
 }
 
@@ -376,7 +375,6 @@ article h3 {
 	margin-left: 5rem;              /* Marge à gauche de 5rem */
 	margin-bottom: 2.5rem;          /* Marge en bas de 2.5rem */
 	padding: 1.25rem;               /* Rembourrage de 1.25rem sur tous les côtés */
-	            /* Rembourrage à gauche de 70px */
 	margin-bottom: 6.25rem;         /* Marge en bas de 6.25rem */
 }
 
@@ -666,7 +664,7 @@ footer h2 {
     }
 
     #menu ul {
-        background: #111;         /* Fond de couleur #111 */
+        background: #019209;         /* Fond de couleur #111 */
         position: absolute;         /* Position absolue */
         top: 100%;                  /* En haut de l'élément parent */
         right: 0;

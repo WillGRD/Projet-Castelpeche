@@ -1,4 +1,4 @@
-//Début clik ça remonte //
+//Back To Top//
 
 let chevron = document.createElement("p");   //On créer l'élément chevron qui sera de type p
 chevron.textContent = "<";                   // On lui ajoute du texte (<)
@@ -19,4 +19,3 @@ chevron.addEventListener("click", () => {    // On lui ajoute l'événement clic
     });
 })
 
-//Fin clik ça remonte //

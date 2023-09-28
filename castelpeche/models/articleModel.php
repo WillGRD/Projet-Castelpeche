@@ -49,6 +49,7 @@ function getArticles() {
     // Récupération des résultats de la requête dans un tableau
     $listeArticles = $recupeArticle->fetchAll();
 
+    //Retourne la valeur renvoyé par la méthode  fetchAll 
     return $listeArticles;
 }
 
